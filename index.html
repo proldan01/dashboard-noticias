@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard Noticias</title>
+<style>
+:root{
+  --navy:#0b2545; --navy2:#13315c; --teal:#14b8a6; --teal2:#0d9488;
+  --bg:#f3f7fa; --panel:#ffffff; --text:#0b2545; --muted:#5b6b82; --line:#dbe5ee;
+  --side:#0b2545; --sidetext:#dbeafe; --warn:#b45309; --warnbg:#fef3c7; --err:#b91c1c; --errbg:#fee2e2; --okbg:#ccfbf1;
+  --shadow:0 2px 10px rgba(11,37,69,.08);
+}
+:root[data-theme="dark"]{
+  --bg:#071426; --panel:#0e2038; --text:#e8f1fa; --muted:#93a7c0; --line:#1c3454;
+  --side:#050f1d; --sidetext:#cfe3f7; --warn:#fcd34d; --warnbg:#3b2f0a; --err:#fca5a5; --errbg:#4a1414; --okbg:#0b3b38;
+  --shadow:0 2px 10px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh}
+button,input,select{font:inherit;color:inherit}
+aside{width:230px;background:var(--side);color:var(--sidetext);padding:18px 12px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:6px;flex-shrink:0}
+.brand{font-weight:700;font-size:1.15rem;padding:6px 10px 16px;color:#fff;display:flex;align-items:center;gap:8px}
+.brand span{width:12px;height:12px;border-radius:3px;background:var(--teal);display:inline-block}
+.nav{background:none;border:0;color:inherit;text-align:left;padding:10px 12px;border-radius:8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.nav:hover{background:rgba(255,255,255,.08)}
+.nav.active{background:var(--teal2);color:#fff}
+.nav .n{font-size:.75rem;background:rgba(255,255,255,.18);padding:1px 8px;border-radius:10px}
+.side-foot{margin-top:auto;font-size:.75rem;opacity:.75;padding:8px 10px}
+main{flex:1;min-width:0;padding:20px 24px}
+header.top{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:14px}
+h1{margin:0;font-size:1.5rem}
+.sub{color:var(--muted);font-size:.85rem;margin-top:2px}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{background:var(--panel);border:1px solid var(--line);padding:8px 14px;border-radius:8px;cursor:pointer;box-shadow:var(--shadow)}
+.btn:hover{border-color:var(--teal)}
+.btn.primary{background:var(--teal2);border-color:var(--teal2);color:#fff}
+.btn:disabled{opacity:.55;cursor:wait}
+.alert{padding:10px 14px;border-radius:8px;margin-bottom:10px;font-size:.9rem;border:1px solid var(--line)}
+.alert.warn{background:var(--warnbg);color:var(--warn)}
+.alert.err{background:var(--errbg);color:var(--err)}
+.alert.ok{background:var(--okbg)}
+.alert ul{margin:6px 0 0 18px;padding:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow)}
+.kpi .l{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.kpi .v{font-size:1.6rem;font-weight:700;margin-top:4px;word-break:break-word}
+.kpi .v.small{font-size:1.05rem;line-height:1.5}
+.kpi{border-top:3px solid var(--teal)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center}
+.filters input,.filters select{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.filters input[type=search]{flex:1;min-width:200px}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-bottom:14px}
+.card h2{font-size:.95rem;margin:0 0 10px}
+.bar{display:grid;grid-template-columns:110px 1fr 36px;gap:8px;align-items:center;font-size:.82rem;margin:6px 0}
+.bar .lab{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar .track{background:var(--line);border-radius:6px;height:12px;overflow:hidden}
+.bar .fill{height:100%;background:linear-gradient(90deg,var(--navy2),var(--teal));border-radius:6px}
+.bar .num{text-align:right;color:var(--muted)}
+svg.spark{width:100%;height:120px;display:block}
+svg.spark .axis{fill:var(--muted);font-size:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.news{display:flex;flex-direction:column;gap:8px}
+.news .meta{display:flex;flex-wrap:wrap;gap:6px;font-size:.75rem;color:var(--muted)}
+.tag{background:var(--okbg);color:var(--text);padding:1px 8px;border-radius:10px;font-weight:600}
+.news h3{font-size:1rem;margin:0;line-height:1.35}
+.news a.link{margin-top:auto;color:var(--teal2);font-weight:600;text-decoration:none;font-size:.88rem}
+.news a.link:hover{text-decoration:underline}
+:root[data-theme="dark"] .news a.link{color:var(--teal)}
+.empty{text-align:center;padding:36px 20px}
+.empty ol{text-align:left;display:inline-block;line-height:1.7}
+.hidden{display:none!important}
+.count{color:var(--muted);font-size:.85rem;margin:0 0 8px}
+.menu-btn{display:none}
+@media(max-width:800px){
+  body{flex-direction:column}
+  aside{width:100%;height:auto;position:static;flex-direction:row;flex-wrap:wrap;align-items:center}
+  .side-foot{display:none}
+  .brand{padding:6px 10px}
+  main{padding:14px}
+}
+</style>
+</head>
+<body>
+<aside>
+  <div class="brand"><span></span>Dashboard Noticias</div>
+  <button class="nav active" data-section="Todas">Resumen general <span class="n" id="n-Todas">0</span></button>
+  <button class="nav" data-section="México">México <span class="n" id="n-México">0</span></button>
+  <button class="nav" data-section="Estados Unidos">Estados Unidos <span class="n" id="n-Estados Unidos">0</span></button>
+  <button class="nav" data-section="Mercados y Política">Mercados y Política <span class="n" id="n-Mercados y Política">0</span></button>
+  <div class="side-foot">Datos leídos de noticias.json. Sin APIs ni claves.</div>
+</aside>
+
+<main>
+  <header class="top">
+    <div>
+      <h1>Dashboard Noticias</h1>
+      <div class="sub" id="lastUpdate">Última recopilación: cargando…</div>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="btnRefresh" type="button">⟳ Refresh</button>
+      <button class="btn" id="btnCsv" type="button">⬇ Exportar CSV</button>
+      <button class="btn" id="btnClear" type="button">Limpiar filtros</button>
+      <button class="btn" id="btnTheme" type="button">◐ Claro/Oscuro</button>
+    </div>
+  </header>
+
+  <div id="alerts"></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <div class="filters">
+    <input type="search" id="q" placeholder="Buscar en titulares y fuentes…" aria-label="Buscar">
+    <select id="fCat" aria-label="Categoría"><option value="">Todas las categorías</option></select>
+    <select id="fSrc" aria-label="Fuente"><option value="">Todas las fuentes</option></select>
+    <select id="fDate" aria-label="Fecha">
+      <option value="">Cualquier fecha</option>
+      <option value="1">Últimas 24 horas</option>
+      <option value="7">Últimos 7 días</option>
+      <option value="30">Últimos 30 días</option>
+    </select>
+  </div>
+
+  <section class="charts" id="charts">
+    <div class="card"><h2>Distribución por categoría</h2><div id="chCat"></div></div>
+    <div class="card"><h2>Principales fuentes</h2><div id="chSrc"></div></div>
+    <div class="card"><h2>Noticias por día (últimos 14 días)</h2><div id="chDay"></div></div>
+  </section>
+
+  <p class="count" id="count"></p>
+  <section class="grid" id="list"></section>
+  <section class="card empty hidden" id="empty"></section>
+</main>
+
+<script>
+(function(){
+  'use strict';
+  var state = { data:null, articles:[], section:'Todas', loading:false, fetchError:null };
+  var $ = function(id){ return document.getElementById(id); };
+  var SECTIONS = ['México','Estados Unidos','Mercados y Política'];
+
+  function norm(s){ return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim(); }
+  function el(tag, cls, text){ var e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; }
+  function parseDate(s){ if(!s) return null; var d=new Date(s); return isNaN(d.getTime())?null:d; }
+  function fmt(d){ return d? d.toLocaleString('es-MX',{dateStyle:'medium',timeStyle:'short'}) : 'Sin fecha'; }
+  function artDate(a){ return parseDate(a.published_at) || parseDate(a.collected_at); }
+  function safeUrl(u){ try{ var x=new URL(u, location.href); return (x.protocol==='http:'||x.protocol==='https:')?x.href:null; }catch(e){ return null; } }
+
+  // Una categoría pertenece a una sección; "Mercados" o "Política" sueltas caen en "Mercados y Política"
+  function sectionOf(cat){
+    var c=norm(cat);
+    if(c.indexOf('mexico')>-1) return 'México';
+    if(c.indexOf('estados unidos')>-1 || c==='eeuu' || c==='ee.uu.' || c==='us' || c==='usa') return 'Estados Unidos';
+    if(c.indexOf('mercado')>-1 || c.indexOf('politica')>-1) return 'Mercados y Política';
+    return null;
+  }
+
+  /* ---------- Carga ---------- */
+  function load(){
+    if(state.loading) return;
+    state.loading=true; $('btnRefresh').disabled=true; $('btnRefresh').textContent='⟳ Leyendo…';
+    fetch('./noticias.json?t='+Date.now(), {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status+' al leer noticias.json'); return r.json(); })
+      .then(function(j){
+        if(!j || typeof j!=='object' || Array.isArray(j)) throw new Error('El formato de noticias.json no es un objeto válido.');
+        state.data=j; state.fetchError=null;
+        state.articles=(Array.isArray(j.articles)?j.articles:[]).filter(function(a){ return a && typeof a==='object' && a.title; });
+      })
+      .catch(function(e){
+        state.fetchError = (e && e.message) ? e.message : String(e);
+        if(location.protocol==='file:') state.fetchError += ' (abre el dashboard desde GitHub Pages o un servidor local; fetch no funciona con file://).';
+      })
+      .then(function(){
+        state.loading=false; $('btnRefresh').disabled=false; $('btnRefresh').textContent='⟳ Refresh';
+        buildFilters(); render();
+      });
+  }
+
+  /* ---------- Filtros ---------- */
+  function fillSelect(sel, values, allLabel){
+    var cur=sel.value; sel.textContent='';
+    var o=el('option',null,allLabel); o.value=''; sel.appendChild(o);
+    values.forEach(function(v){ var op=el('option',null,v); op.value=v; sel.appendChild(op); });
+    if(values.indexOf(cur)>-1) sel.value=cur;
+  }
+  function uniq(arr){ var m={}; arr.forEach(function(v){ if(v) m[v]=1; }); return Object.keys(m).sort(function(a,b){return a.localeCompare(b,'es');}); }
+  function buildFilters(){
+    fillSelect($('fCat'), uniq(state.articles.map(function(a){return a.category;})), 'Todas las categorías');
+    fillSelect($('fSrc'), uniq(state.articles.map(function(a){return a.source;})), 'Todas las fuentes');
+  }
+  function filtered(ignoreSection){
+    var q=norm($('q').value), cat=$('fCat').value, src=$('fSrc').value, days=parseInt($('fDate').value,10);
+    var limit = days ? Date.now()-days*864e5 : null;
+    return state.articles.filter(function(a){
+      if(!ignoreSection && state.section!=='Todas' && sectionOf(a.category)!==state.section) return false;
+      if(cat && a.category!==cat) return false;
+      if(src && a.source!==src) return false;
+      if(limit){ var d=artDate(a); if(!d || d.getTime()<limit) return false; }
+      if(q && norm((a.title||'')+' '+(a.source||'')+' '+(a.category||'')).indexOf(q)===-1) return false;
+      return true;
+    }).sort(function(a,b){ var da=artDate(a),db=artDate(b); return (db?db.getTime():0)-(da?da.getTime():0); });
+  }
+
+  /* ---------- Render ---------- */
+  function renderAlerts(){
+    var box=$('alerts'); box.textContent='';
+    var d=state.data;
+    if(state.fetchError){
+      var a=el('div','alert err'); a.appendChild(el('strong',null,'No se pudo leer noticias.json: ')); a.appendChild(document.createTextNode(state.fetchError)); box.appendChild(a);
+    }
+    if(!d) return;
+    if(d.status==='partial'){
+      var p=el('div','alert warn');
+      p.appendChild(el('strong',null,'Fuente parcial: '));
+      p.appendChild(document.createTextNode('solo '+(Number(d.sources_ok)||0)+' de '+(Number(d.sources_total)||0)+' fuentes respondieron. Los resultados pueden estar incompletos.'));
+      box.appendChild(p);
+    } else if(d.status==='error'){
+      box.appendChild(Object.assign(el('div','alert err'),{textContent:'La última recopilación terminó con error. Los datos mostrados pueden estar desactualizados o vacíos.'}));
+    } else if(d.status==='pending'){
+      box.appendChild(el('div','alert warn','Estado pendiente: todavía no se ha ejecutado la primera recopilación.'));
+    }
+    if(Array.isArray(d.errors) && d.errors.length && (d.status==='partial'||d.status==='error')){
+      var e=el('div','alert '+(d.status==='error'?'err':'warn')); e.appendChild(el('strong',null,'Detalle de errores:'));
+      var ul=el('ul'); d.errors.slice(0,20).forEach(function(m){ ul.appendChild(el('li',null,String(m))); }); e.appendChild(ul); box.appendChild(e);
+    }
+  }
+
+  function kpi(label, value, small){
+    var c=el('div','card kpi'); c.appendChild(el('div','l',label)); c.appendChild(el('div','v'+(small?' small':''),value)); return c;
+  }
+  function topKey(list, key){
+    var m={}; list.forEach(function(a){ var k=a[key]; if(k) m[k]=(m[k]||0)+1; });
+    var best=null,n=0; Object.keys(m).forEach(function(k){ if(m[k]>n){n=m[k];best=k;} });
+    return best? best+' ('+n+')' : '—';
+  }
+  function renderKpis(list){
+    var d=state.data||{}, box=$('kpis'); box.textContent='';
+    var now=Date.now();
+    var last24 = list.filter(function(a){ var x=artDate(a); return x && now-x.getTime()<=864e5; }).length;
+    box.appendChild(kpi('Titulares totales', String(state.articles.length)));
+    box.appendChild(kpi('Resultados filtrados', String(list.length)));
+    box.appendChild(kpi('Últimas 24 h (filtrado)', String(last24)));
+    box.appendChild(kpi('Fuentes activas', (Number(d.sources_ok)||0)+' / '+(Number(d.sources_total)||0)));
+    box.appendChild(kpi('Nuevas en la última corrida', String(Number(d.new_articles)||0)));
+    box.appendChild(kpi('Fuente principal', topKey(list,'source'), true));
+    box.appendChild(kpi('Categoría principal', topKey(list,'category'), true));
+  }
+
+  function barChart(target, entries, max){
+    target.textContent='';
+    if(!entries.length){ target.appendChild(el('div','sub','Sin datos para graficar.')); return; }
+    var top=entries[0][1]||1;
+    entries.slice(0,max).forEach(function(e){
+      var r=el('div','bar'); var lab=el('div','lab',e[0]); lab.title=e[0];
+      var tr=el('div','track'), f=el('div','fill'); f.style.width=Math.max(3,Math.round(e[1]/top*100))+'%'; tr.appendChild(f);
+      r.appendChild(lab); r.appendChild(tr); r.appendChild(el('div','num',String(e[1]))); target.appendChild(r);
+    });
+  }
+  function countBy(list,key){
+    var m={}; list.forEach(function(a){ var k=a[key]||'Sin dato'; m[k]=(m[k]||0)+1; });
+    return Object.keys(m).map(function(k){return [k,m[k]];}).sort(function(a,b){return b[1]-a[1];});
+  }
+  function dayChart(target, list){
+    target.textContent='';
+    var days=[], counts={}, i, NS='http://www.w3.org/2000/svg';
+    for(i=13;i>=0;i--){ var d=new Date(); d.setHours(0,0,0,0); d.setDate(d.getDate()-i); days.push(d); counts[d.getTime()]=0; }
+    list.forEach(function(a){ var x=artDate(a); if(!x) return; var k=new Date(x); k.setHours(0,0,0,0); if(counts[k.getTime()]!==undefined) counts[k.getTime()]++; });
+    var vals=days.map(function(d){return counts[d.getTime()];}), mx=Math.max.apply(null,vals);
+    if(mx===0){ target.appendChild(el('div','sub','Sin noticias en los últimos 14 días.')); return; }
+    var svg=document.createElementNS(NS,'svg'); svg.setAttribute('viewBox','0 0 280 120'); svg.setAttribute('class','spark'); svg.setAttribute('role','img'); svg.setAttribute('aria-label','Noticias por día');
+    var bw=280/14;
+    vals.forEach(function(v,idx){
+      var h=Math.round(v/mx*90), r=document.createElementNS(NS,'rect');
+      r.setAttribute('x',idx*bw+3); r.setAttribute('y',100-h); r.setAttribute('width',bw-6); r.setAttribute('height',h); r.setAttribute('rx',2); r.setAttribute('fill','#14b8a6');
+      var t=document.createElementNS(NS,'title'); t.textContent=days[idx].toLocaleDateString('es-MX')+': '+v; r.appendChild(t); svg.appendChild(r);
+      if(idx%3===0){ var tx=document.createElementNS(NS,'text'); tx.setAttribute('x',idx*bw+bw/2); tx.setAttribute('y',114); tx.setAttribute('text-anchor','middle'); tx.setAttribute('class','axis'); tx.textContent=days[idx].getDate()+'/'+(days[idx].getMonth()+1); svg.appendChild(tx); }
+    });
+    target.appendChild(svg);
+  }
+
+  function renderEmpty(kind){
+    var box=$('empty'); box.textContent='';
+    if(kind==='none'){
+      box.appendChild(el('h2',null,'Aún no han sido recopiladas las noticias'));
+      box.appendChild(el('p',null,'El archivo noticias.json no contiene artículos todavía. Para traer noticias:'));
+      var ol=el('ol');
+      ['Abre tu repositorio en GitHub.','Ve a la pestaña Actions.','Elige el flujo «Actualizar noticias y publicar dashboard».','Pulsa Run workflow y de nuevo Run workflow.','Cuando termine y se publique la página, pulsa Refresh aquí.'].forEach(function(t){ ol.appendChild(el('li',null,t)); });
+      box.appendChild(ol);
+      box.appendChild(el('p','sub','Nota: Refresh solo vuelve a leer noticias.json; no descarga noticias nuevas por sí mismo.'));
+    } else if(kind==='error'){
+      box.appendChild(el('h2',null,'No hay datos disponibles'));
+      box.appendChild(el('p',null,'No fue posible cargar noticias.json. Revisa el aviso superior y pulsa Refresh.'));
+    } else {
+      box.appendChild(el('h2',null,'Sin resultados'));
+      box.appendChild(el('p',null,'Ningún titular coincide con la búsqueda o filtros actuales.'));
+      var b=el('button','btn','Limpiar filtros'); b.type='button'; b.addEventListener('click',clearFilters); box.appendChild(b);
+    }
+    box.classList.remove('hidden');
+  }
+
+  function render(){
+    var d=state.data;
+    $('lastUpdate').textContent = 'Última recopilación: ' + (d && parseDate(d.generated_at) ? fmt(parseDate(d.generated_at)) : (d ? 'sin recopilación todavía' : 'no disponible'));
+    renderAlerts();
+
+    // contadores del menú
+    var all=filtered(true); var cnt={Todas:all.length}; SECTIONS.forEach(function(s){cnt[s]=0;});
+    all.forEach(function(a){ var s=sectionOf(a.category); if(s) cnt[s]++; });
+    ['Todas'].concat(SECTIONS).forEach(function(s){ $('n-'+s).textContent=cnt[s]; });
+    document.querySelectorAll('.nav').forEach(function(b){ b.classList.toggle('active', b.getAttribute('data-section')===state.section); });
+
+    var list=filtered(false);
+    renderKpis(list);
+    barChart($('chCat'), countBy(list,'category'), 8);
+    barChart($('chSrc'), countBy(list,'source'), 8);
+    dayChart($('chDay'), list);
+
+    var grid=$('list'); grid.textContent=''; $('empty').classList.add('hidden');
+    $('count').textContent = state.articles.length ? ('Mostrando '+list.length+' de '+state.articles.length+' titulares'+(state.section!=='Todas'?' · Sección: '+state.section:'')) : '';
+
+    if(!state.data){ renderEmpty('error'); return; }
+    if(!state.articles.length){ renderEmpty('none'); return; }
+    if(!list.length){ renderEmpty('filter'); return; }
+
+    var frag=document.createDocumentFragment();
+    list.forEach(function(a){
+      var c=el('article','card news'), meta=el('div','meta');
+      meta.appendChild(el('span','tag',a.category||'Sin categoría'));
+      meta.appendChild(el('span',null,a.source||'Fuente desconocida'));
+      meta.appendChild(el('span',null,'· '+fmt(parseDate(a.published_at) || parseDate(a.collected_at))));
+      c.appendChild(meta);
+      c.appendChild(el('h3',null,String(a.title)));
+      var u=safeUrl(a.url);
+      if(u){ var l=el('a','link','Abrir nota original ↗'); l.href=u; l.target='_blank'; l.rel='noopener noreferrer'; c.appendChild(l); }
+      else c.appendChild(el('span','sub','Sin enlace disponible'));
+      frag.appendChild(c);
+    });
+    grid.appendChild(frag);
+  }
+
+  /* ---------- Acciones ---------- */
+  function clearFilters(){ $('q').value=''; $('fCat').value=''; $('fSrc').value=''; $('fDate').value=''; state.section='Todas'; render(); }
+
+  function csvCell(v){
+    var s=v==null?'':String(v);
+    if(/^[=+\-@\t\r]/.test(s)) s="'"+s; // evita inyección de fórmulas en hojas de cálculo
+    return '"'+s.replace(/"/g,'""')+'"';
+  }
+  function exportCsv(){
+    var list=filtered(false);
+    if(!list.length){ alert('No hay titulares para exportar con los filtros actuales.'); return; }
+    var rows=[['id','titulo','fuente','categoria','publicada','recopilada','url']];
+    list.forEach(function(a){ rows.push([a.id,a.title,a.source,a.category,a.published_at,a.collected_at,a.url]); });
+    var csv='﻿'+rows.map(function(r){return r.map(csvCell).join(',');}).join('\r\n');
+    var blob=new Blob([csv],{type:'text/csv;charset=utf-8;'}), url=URL.createObjectURL(blob);
+    var a=document.createElement('a'); a.href=url; a.download='noticias_'+new Date().toISOString().slice(0,10)+'.csv';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a); setTimeout(function(){URL.revokeObjectURL(url);},1000);
+  }
+
+  function setTheme(t){ document.documentElement.setAttribute('data-theme',t); try{localStorage.setItem('dn-theme',t);}catch(e){} }
+  function initTheme(){
+    var t=null; try{t=localStorage.getItem('dn-theme');}catch(e){}
+    if(!t) t=(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';
+    setTheme(t);
+  }
+
+  document.querySelectorAll('.nav').forEach(function(b){ b.addEventListener('click',function(){ state.section=b.getAttribute('data-section'); render(); }); });
+  $('btnRefresh').addEventListener('click', load);
+  $('btnCsv').addEventListener('click', exportCsv);
+  $('btnClear').addEventListener('click', clearFilters);
+  $('btnTheme').addEventListener('click', function(){ setTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'); });
+  ['q'].forEach(function(id){ $(id).addEventListener('input', render); });
+  ['fCat','fSrc','fDate'].forEach(function(id){ $(id).addEventListener('change', render); });
+
+  initTheme();
+  load();
+})();
+</script>
+</body>
+</html>

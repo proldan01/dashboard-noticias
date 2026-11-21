@@ -1,11 +1,29 @@
 {
-  "generated_at": "2026-11-21T20:08:19.356780Z",
+  "generated_at": "2026-11-21T20:46:07.664018Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 266,
+  "new_articles": 167,
   "errors": [],
   "articles": [
+    {
+      "id": "990e668a346a8d8795ea72cf",
+      "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
+      "url": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "category": "Mercados",
+      "published_at": "2026-11-21T20:15:00Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
+    },
+    {
+      "id": "8429ad713c442a464ec9b771",
+      "title": "1 Compelling Reason to Buy Vistra Stock Before November Ends",
+      "url": "https://www.fool.com/investing/2026/11/21/1-compelling-reason-to-buy-vistra-stock-before-november-ends/?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-21T20:05:02Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
+    },
     {
       "id": "533477f62c7ac9c41e43b4fb",
       "title": "The S&P 500 Is Having the Longest Losing Streak Since February 2020",
@@ -59,6 +77,15 @@
       "category": "Mercados",
       "published_at": "2026-11-21T19:34:52Z",
       "collected_at": "2026-11-21T20:08:19.356780Z"
+    },
+    {
+      "id": "932c5d1f0cf9ce120b98e47f",
+      "title": "Cathie Wood Doubles Down On ‘Highest Conviction Names’ Nvidia, Tesla and AMD As Cyclical Tech Stocks Get ‘Slaughtered’ Amid Market Pullback",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-doubles-down-highest-193008245.html?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-21T19:30:08Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
     },
     {
       "id": "785b4e8b325db5f5fb47c2d4",
@@ -448,6 +475,15 @@
       "collected_at": "2026-11-21T20:08:19.356780Z"
     },
     {
+      "id": "9ca130dddf4b5b9fc1508e9b",
+      "title": "J.P. Morgan Forecasts Three Consecutive Fed Rate Hikes as Inflation Remains Elevated - Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVzZSdHVoaHpDSEExbUJrSzlSZEIwS0pzVm56TDdhSldKQlJWUlo1VzVhYThZMVJsQnI5b1pLMmxvWVM0VG0xMjg0QnAtVHZuOXBOLU5GbWVBdHpFOXhvblI4elRNbThzdTdkZDVCbFg5T1k4MnNFOWttci1CNnVJXzdPd1htb0w0UnJqZFQ4Vm1KV0loOERKZFRmU0ZwVEd6VjVpMzFjSzI3Wm44?oc=5",
+      "source": "Tekedia",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-21T15:06:47Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
+    },
+    {
       "id": "3052fe59ccec8f9c0e111a67",
       "title": "Gasolina en México es hasta 29% más cara que en EU por mayores impuestos - EL CEO",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QLUl6cTNzWU9MTUh2LVR2VHlwTUtXeldrcEZqcUdfaXNKZU91VUFxSVU1SmZXWFdkS3dPX2lpVnhTVW9VWk1lcGN3dzczMGFCU2pRczJJakJxdnNsMkRSQzEtbXF1aWY1aXlmaWV0TDBiX0pxSElj?oc=5",
@@ -520,6 +556,15 @@
       "collected_at": "2026-11-21T20:08:19.356780Z"
     },
     {
+      "id": "707357ab48ab33da73c5e006",
+      "title": "Rupee climbs past 93/USD as investors seek shelter in Indian stocks, shorts unwind - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY2pFbUd4enR6VTI3UkVVSllkdl92SkJ3d2hNVkZkQTBlQW9FMnBEMHBmUkRkdkhUUFB2NHV0UHNaYUlKS05JaDJOaEswOXF5N0hlaEo3anZHRHdnSU43cEltdkJfM3lEM1VfSWZLTUwxa3MxM3VRZmlhMkxYRWJjVXRxMGh3TW9uZEJFMG1mXzR0MDZuVXo3ejRMQ1FjSXFZRHMwWHczSURscU56TUVFcDV1dHFMdWgxQ0tn?oc=5",
+      "source": "Reuters",
+      "category": "Mercados",
+      "published_at": "2026-11-21T07:41:44Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
+    },
+    {
       "id": "340cce09d3eac50207862f0e",
       "title": "Why Is Bitcoin Dropping? BTC Falls 10% Below $57K - Bitcoin Foundation",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWU5faWhXRGtfclFmQ1B1Tm5VcEF6QmF2WWo0NTltX2IzWDFodDBibER4dW41alNsRjVVV0Rqa2ZXNm81WjB3NEpMczR6UzRXUXBDaTZnYkxmdWNNYzdNRjc4cUp6S0I0dmxKb3NlZUdwWDRSTldFRFUxREJTVWFyUkJMSFhaRm1OYkZNZmJsczVFQlFfbDgyek1PNVRSVkVRMEZNSDlBZHVmZw?oc=5",
@@ -554,6 +599,15 @@
       "category": "Mercados",
       "published_at": "2026-11-21T06:00:02Z",
       "collected_at": "2026-11-21T20:08:19.356780Z"
+    },
+    {
+      "id": "843b5218d76aca0fb8b9e1dd",
+      "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
+      "source": "Reuters",
+      "category": "Mercados",
+      "published_at": "2026-11-21T04:32:28Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
     },
     {
       "id": "2bd5925477bbe367ea819dae",
@@ -1238,6 +1292,15 @@
       "category": "Mercados",
       "published_at": "2026-11-20T20:03:48Z",
       "collected_at": "2026-11-21T20:08:19.356780Z"
+    },
+    {
+      "id": "29c3959296a6b4679f9eab65",
+      "title": "Edomex tendrá presupuesto de 433,802 mdp en 2027: sin nuevos impuestos ni deuda - Radio Fórmula",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWF8wLUNuZFhWZ1RYMUlTNGQxdlh2bGxMUzNJd1MwMzB5Sk5lc1pLaWNRRjRObW5wX3pmdDJPb3pnWWFiN0ZoWDAzNVZoT2x3NG1hd3dhNVNhY1FvU29YNXE1RGdBLTN0T1pqYWxoRDJtajNQQ2tnaHRpRnF3Y1VaeHZWWHhQVE5iRTlOdWVGTHJOVzFkeS1Gdk5BaW9mTk96eWdNZXh4RU5jMDlfbUtuNS1aOGJpWlNTa2VfNzFDZ05Na09NbjhUUEl2aEVGV25UMEpj0gHYAUFVX3lxTE5DNE9LRGtNR0xFZV9kWGl2ZC1fbm41UTNuRldqeHNZak4wb2FSUk82NnU5eS1QODBsYVhtWlVwOHpTZmliX3dvLVJoazE1SFljZUlZSk9FeVhvQTZqN3M5UHZyZ0s2YU01ZXhuRlFNc3JMRXJmMmxvWlAzSnVHQWZscS1mU2ZnYWVudEZwWDRHazRSZ0NEQ1lhc3RpaWlqaFdya0dZcHdZQVVfVFU1ZlBsSUU0X1RMRElGODJQTnVEb3p2WlNRZndjOTRWeWhXS2FFd0VlallJWA?oc=5",
+      "source": "Radio Fórmula",
+      "category": "Política",
+      "published_at": "2026-11-20T20:03:47Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
     },
     {
       "id": "3e233f45ba0db2246625f8a7",
@@ -2491,6 +2554,15 @@
       "collected_at": "2026-11-20T21:10:37.635111Z"
     },
     {
+      "id": "a59b21794a07df237bd840c0",
+      "title": "Indian shares rise for fourth straight week as AI rout deepens - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaEJHRkZDOVdTT19VcGt0YU9SeHdvSmo4cDZVR1R2RzdDUUFJREc0bkNBcDFrUDN1X052bGljQUdsQ19jMTkxZlhYZTI3LW94RUFKb043WXpDZW5mUThLVk95eVcxU005bVNGV0EyY2JlWUlpWDAwZHJDaGJSMlNIMndQZ0QyWGtGVlo4WjB1YjZzNGlfYzBPVFdfaE1MTVdabVZmLXdLdkxsTDJmczdWSW5wRUNlMTg?oc=5",
+      "source": "Reuters",
+      "category": "Mercados",
+      "published_at": "2026-11-20T10:44:07Z",
+      "collected_at": "2026-11-21T20:46:07.664018Z"
+    },
+    {
       "id": "b651295630e9bc744bd6b448",
       "title": "Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0VmbDFSZy1pMm1jZlE3SG1PMDdjcHdmZnp3WWFQbTBSSHBndDktSEhpRFB4MkRYZUhTQXFhNm9YY0pwNlczMkxtOF9ZMVA2R1VHN2k1MmE3VkN6d292amFiX1JKUUxVcmN4NmxFTGYwbkhlakpkeTZ4eE5yRkxxTTlubE9PUU1jWmtrZVF6RjhiMWhhYmp2Q29Ucy1aMm13T0F0WTMwSGRBZWdQV3pyRjlZRm9pUEVnV0EzQQ?oc=5",
@@ -2633,78 +2705,6 @@
       "category": "México",
       "published_at": "2026-11-20T08:00:00Z",
       "collected_at": "2026-11-21T20:08:19.356780Z"
-    },
-    {
-      "id": "3ed0b7ca0d7d163b7b50b1bb",
-      "title": "Peso mexicano busca recuperarse tras romper la barrera de las 19 unidades - Expreso",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbDFMdWxHemdLbUF6WHpTSVRtLTl1ZVpiN1dKT1pJZzVuSXVBbklPRFQ0d2R3N1l1OTBza2xuWHRZMGJ4aVJWTlB4bmxwdFlmSnpfNkx3LWZINElDRU5sWVpaOXZmYk5kYTFvcmN2VGpTZEdfVzhhRnBOUXFxdFJtWE5KOEI1SW9NV2hpWHJwNEZwRjlaZW4ySGh4d1Y1NDBPaUtsYVRnalTSAa4BQVVfeXFMTWVfX1VoUHNrWW9OMFh3MnNheHVmV3FsQU5pTlBMcDdpcGp5QkNGdVRQb2NPa1NjdW44ckFSNHdCbjMySmU2YlNoenRYQ1RtUDAzeHlDaFVPQnFTOXlXZTQ3R1V4WU1paWhGVW50QXhPdU5WeW9SR1BMR0Nic2plMURFZmFqa1M1eUZnQmtlSGRMaGZ4eDJ5UmRWd0FnU0tYd1hSOWZTbG1FWTZiMDdB?oc=5",
-      "source": "Expreso",
-      "category": "México",
-      "published_at": "2026-11-20T08:00:00Z",
-      "collected_at": "2026-11-21T20:08:19.356780Z"
-    },
-    {
-      "id": "c207105b984fe45701fcb2c2",
-      "title": "Treasury Yields Snapshot: November 20, 2026 - Advisor Perspectives",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSHBXM2RDdGMtVXE4c3gtMkVxTEFWVXN1UHBuQmE4X2M1Skk0ZDJwSVhsWjlHNkJSN1NOUkxNVGs3TlMxZkRSdmFXMTRobklDN1NBYnJnV2VEU3VqekxRcG1UZ0JabmZaN2Y4aHpHVUNCV2hScl9mSThQb09kVXZ5NHNoQ043SGtIVktzeUdzRUFNajJUOTM5UEVuYWtRQkxDeC1sMW1n?oc=5",
-      "source": "Advisor Perspectives",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-20T08:00:00Z",
-      "collected_at": "2026-11-21T20:08:19.356780Z"
-    },
-    {
-      "id": "bb198fc602aaa11a04b2ea9a",
-      "title": "Paquete fiscal mexiquense crece sin contratar nueva deuda - La Jornada Estado de México",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUE0yRVhDY0tqRl9LeC11dGROWVpUQ3N6bFEtd0JYMjZaMWZXb2lsS01lcHdURTF0dTB1aWNsN21VMktCTGN3ZHZISmh4SXpiSDdqcmE5cHpNREREUzVHNHBuVXVNRGVnai1yWWYyWUVJSzEzVDRTcVI1Q091WkZhSmdncWdwYXE1QTFiZFVfTFFHUjc2MDZLaFpB?oc=5",
-      "source": "La Jornada Estado de México",
-      "category": "Política",
-      "published_at": "2026-11-20T08:00:00Z",
-      "collected_at": "2026-11-21T20:08:19.356780Z"
-    },
-    {
-      "id": "a723222dbce68148bb54f81e",
-      "title": "Economía cultural crece, pero no recupera su fuerza laboral - El Economista",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWl84S2tLd2JGcGJfRGZYNk55eFVIYkNmMDI2YVpqd09IbVk0cUJUcjNpWHc3QS1BYW92dEllY202RVFmVVFnaUJBYjIxYUl5T01VVHR2a2xxRHpMeGRKT2cxbUZBaEp5TGFic253MkxOTEdyd2hPdzhwMVVXSzd4cl9OODNLS1loRUx5RlpId3JtQk5aUUlJdDYxUE9qT0twb2R4eTE2cUgtWWF3Y3p5QWVn0gG3AUFVX3lxTFB3X2RQblNGT2t2THVIU2k4bHVOUDhnNkJuZnhKUHI4MlY3NW9jTm50SWh2ejBKY1U3VU90Vzh1Ym0yUkltNEM1bFQwWlQwTVhKdjMtYW9yX0JQTk5jYnZrSktNRG5PME44MTBFMHVkbm53ajNCOTU3ZHFLbk9JZDVhbkhCckNNMmdoNnpIck5malZtWHBrWTNqbjdkZjFzMEtqUmJURjEzMXIyZWxXS210VlFEV0xjYw?oc=5",
-      "source": "El Economista",
-      "category": "México",
-      "published_at": "2026-11-20T07:45:11Z",
-      "collected_at": "2026-11-20T21:10:37.635111Z"
-    },
-    {
-      "id": "7ce8935552e0abee5ce880e1",
-      "title": "India's AI-free appeal draws record foreign buying, earnings will decide if it lasts - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU21DUWtpTjhoc0dIZjQzWWxidVJxMTFackxWYktTUTBWc0xqMVRqMHpTTWlVZ05XSjVNZm90bjE5ektHd3l1MDNyeFFCdDkzb0hZMDI3aDNSOWg3QW1GWmhfMGtpRVNTWGhqbzB0dDhHUEhiOGlOU1R1LVFKRnY2R21tU25xUWFmaDFWdkt4b1VIcFdsQjZ2bWZVbE1GczlFeVBheTlrc1RURG9oalpscGs0T1Zka3lEdm10Tjh1M1BnUQ?oc=5",
-      "source": "Reuters",
-      "category": "Mercados",
-      "published_at": "2026-11-20T07:42:00Z",
-      "collected_at": "2026-11-20T21:10:37.635111Z"
-    },
-    {
-      "id": "6bab451ddb05943b89e2cd8f",
-      "title": "La cultura crece más que la economía mexicana - El Economista",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcjdnalMzQWRsbVpvSmctbzBkM3ZucTd5ZzhqMFJKcjF0a2RSWURJWGtPVmR6RVpBWGZNd05PYUpXQ2NsbTlHcnZVM2dJVjNXNVFld1ZoOXE2RXBiSmp0Z3ExcHJ0aUpoeW4wVy1yZ2d4am1oeDNhS2xkRnI3TnpLTHo0by12cjByMUF0ajN0eDBVT3VWb0lz0gGcAUFVX3lxTE9HYzBCNVUwYUJkZ2dFTWVzSENBWFQtc2Zfb01QalRCM0wtN1NaOTk4QTZ5NEgwTzNVSm1hR051T2doN2VLYUdDVVJpd3prWl9FOVpGc2tPY1ZGMzRsZjVCNkdBZE9oV2UxaHRRdlFCbDBWMjhaNUdmZnIzLThBaHZ5SWtYQU1BZ0tzVFJ3c0kwRE1HbGVWcVpDbVpENA?oc=5",
-      "source": "El Economista",
-      "category": "México",
-      "published_at": "2026-11-20T07:23:20Z",
-      "collected_at": "2026-11-20T21:10:37.635111Z"
-    },
-    {
-      "id": "d9145e07e58c490e38dced3e",
-      "title": "SpaceX Holds Its Orbit As Space Stocks Fall Back To Earth — Inside A Rough Week For FLY, ASTS, RKLB And RDW - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMTVzbEl0N0ZJZUJzeXJMcUI1SC1VRExETzhBaXRoMDhZME45c1ZNU3k4dEpKSTNFbkNzTkwwNUJqOGp4UTlpMTdpTXNMWkh2Tk1KclZWd3g5Z3VyaEp1UzU3bUpxYXlZWTY0b21CaEFZTURldnpLT1QtdXRlMERpLUV5eDRvSkg0Q05QaXNWSGZaMXhmcWdnZkZoUmg?oc=5",
-      "source": "Yahoo Finance",
-      "category": "Mercados",
-      "published_at": "2026-11-20T06:58:00Z",
-      "collected_at": "2026-11-20T21:10:37.635111Z"
-    },
-    {
-      "id": "6c6179b7085e4d150630e8e2",
-      "title": "CRWV, IREN, NBIS Stocks Extend Neocloud Selloff As Anthropic IPO Rally Fades – Michael Burry Takes A Victory Lap - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObGpITU9wUEpYYUFld21TM3pYSmhDbWtDSmlvSndncDc2WHJwOEF1SWNFNXhPZ1ZVTDhSYmk0b3NUdWlMbWV5R05CUXVPekgtVkxhZHJMa3RRMkh6V2hSUlZFekhhbTlacjh2OFVxQTI5eXAzYVNQQzlOOUs0YjFvMVVTNXVxb1dCMHY5SEg5M0RoaUNFT2pWQw?oc=5",
-      "source": "Yahoo Finance",
-      "category": "Mercados",
-      "published_at": "2026-11-20T06:21:00Z",
-      "collected_at": "2026-11-20T21:10:37.635111Z"
     }
   ]
 }

@@ -1,11 +1,101 @@
 {
-  "generated_at": "2026-11-24T18:10:35.604027Z",
+  "generated_at": "2026-11-24T18:22:01.726553Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 259,
+  "new_articles": 249,
   "errors": [],
   "articles": [
+    {
+      "id": "2a8d84c56458c16fa378d276",
+      "title": "The wealthiest 10% of Americans are pulling ahead of everyone else. This is what’s making them richer.",
+      "url": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:14:00Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "f28ecc208c6500c972fd375e",
+      "title": "Will Bitcoin Drop Below $50,000 Before It Recovers?",
+      "url": "https://247wallst.com/investing/cryptocurrency/2026/11/24/will-bitcoin-drop-below-50000-before-it-recovers/?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:08:55Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "57b787884b61a7f873b1f342",
+      "title": "Why Sandisk Stock Plunged Today",
+      "url": "https://www.fool.com/investing/2026/11/24/why-sandisk-stock-plunged-today/?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:05:55Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "4e780ea5a1de8f7bce6b19ce",
+      "title": "Anthropic Just Fell Below Its IPO Price, but Here's What the Stock Could Be Worth in 2030",
+      "url": "https://www.fool.com/investing/2026/11/24/anthropic-just-fell-below-its-ipo-price-but-here-s-what-the-stock-could-be-worth-in-2030/?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:04:02Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "84a91d0c869d3013352faf3b",
+      "title": "If You Invest $5,000 Into These 3 Stocks, You Could Have $10,000 by 2030",
+      "url": "https://247wallst.com/investing/2026/11/24/if-you-invest-5000-into-these-3-stocks-you-could-have-10000-by-2030/?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:03:20Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "b9e6d1f481eb82e8d7da3425",
+      "title": "What Will Decide Snowflake Stock Over The Next Six Months?",
+      "url": "https://www.trefis.com/stock/snow/articles/628289/what-will-decide-snowflake-stock-over-the-next-six-months/2026-11-24?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:03:06Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "41ef078e2592d22b3a2e70a0",
+      "title": "Axsome Just Crossed a $1 Billion Revenue Run Rate, but Its Stock Hit a 52-Week Low. Is Wall Street Missing Something?",
+      "url": "https://www.fool.com/investing/2026/11/24/axsome-just-crossed-a-1-billion-revenue-run-rate-but-its-stock-hit-a-52-week-low-is-wall-street-missing-something/?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:03:01Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "ddbf1f1ca9d8845dd5510901",
+      "title": "Corning Jumped $10. Jim Cramer Had a Lower Price in Mind",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/corning-jumped-10-jim-cramer-180300762.html?.tsrc=rss",
+      "source": "Yahoo Finance / Índices",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:03:00Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "0a23ac784e27fd86c5006b6a",
+      "title": "Why Jim Cramer’s Trust Bought More Boeing After Its Post-Earnings Drop",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-jim-cramer-trust-bought-180241430.html?.tsrc=rss",
+      "source": "Yahoo Finance / Índices",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:02:41Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
+      "id": "f1b465ea9be1edd766992c01",
+      "title": "Why Jim Cramer Thought FedEx Could Gain on UPS Even in a Slow Economy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-jim-cramer-thought-fedex-180223217.html?.tsrc=rss",
+      "source": "Yahoo Finance / Índices",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:02:23Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
     {
       "id": "bf5fd5cafe3dc2dc3e81f572",
       "title": "Kioxia Stocks Jump 9.95% as Memory Names Rebound After Huang's Return",
@@ -14,6 +104,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T18:01:37Z",
       "collected_at": "2026-11-24T18:10:35.604027Z"
+    },
+    {
+      "id": "f510048d8966d9a2a2cd35c2",
+      "title": "Is NRG Energy Stock Paying You Enough For The Swings?",
+      "url": "https://www.trefis.com/stock/nrg/articles/628285/is-nrg-energy-stock-paying-you-enough-for-the-swings/2026-11-24?.tsrc=rss",
+      "source": "Yahoo Finance / Índices",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:01:00Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
     },
     {
       "id": "1abf1320f23bf289b475855d",
@@ -86,6 +185,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T17:59:29Z",
       "collected_at": "2026-11-24T18:10:35.604027Z"
+    },
+    {
+      "id": "b9150abd23a2d4d90d40795d",
+      "title": "Is Netflix Stock Worth More Than Its Competitors?",
+      "url": "https://www.trefis.com/stock/nflx/articles/628356/is-netflix-stock-worth-more-than-its-competitors-2/2026-11-24?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T17:58:54Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
     },
     {
       "id": "99673b7b11f39335e07a7204",
@@ -257,6 +365,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T17:43:01Z",
       "collected_at": "2026-11-24T18:10:35.604027Z"
+    },
+    {
+      "id": "0edf5f33241f236023c2a684",
+      "title": "The 10-Year Treasury Yield Just Did Something It Hasn’t Done Since 2007, and History Has a Blunt Message for Stock Investors - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNnRNVUFYU09rSHMtZ2FWajM5eU1ZYnVIa2s5QjZ1bTUxdVU4aE1sWS1HNmdKQS1wLVFjdmtfMUlUV1Z6SXBLNUZIWXZ3SHpLRjRucXFhXzQtQ3lfSXdmVTdVT1NtcGtTN25NbTZfd2VuTk9sMFFGYnhOYXlueGIxTEZldTcteGozbFhtN2JVcEY1R191a1E?oc=5",
+      "source": "Yahoo Finance",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-24T17:43:01Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
     },
     {
       "id": "68276ed8bd20ac307a5a0b43",
@@ -2050,6 +2167,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "42135c4e82fcda1001c02cc9",
+      "title": "Shafaq News..Gold rebounds from 14-month low on bargain buying - شفق نيوز",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUmVEcmVYa3p3RURQMmtRdUlOQnpNV0VnWmdMQzJ0c3BYVHJMLUR6VmppaWVrc2JpSGtxQUFRdWZVNG14amV4dUc0aUlDYTViVDIwY3pkblZjeGtpWmlFN0xVZ0Noal9qNjAwVmg4VV9sM3BzRGJzaTBiQ3NZbWJLSGtjb1NGU0JmNWhz?oc=5",
+      "source": "شفق نيوز",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-24T06:47:35Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
+    },
+    {
       "id": "ef6d9224847f3ebffe64b836",
       "title": "Bitcoin And Stocks Are Moving In Different Directions: Arthur Hayes Says Nvidia's Rally Is The 'Worst Thing' For Crypto - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYjEzbXNVZTQ5UWEyOUNUemdiaGF3YnprMkV4QW5KVXBOQjR2WnhOemZ0UXNDcmdZN2lJYk1SWWlOaTNsbmRHRWMtZXpBNFJjXzgxcmllX0RpaDBHbmRibEtHNG5ueFZrQkhwZldyVkpGSVRsVEdSR2g4WndMYW45UWc2MlNwUW5oUGdHbTlyZkg0U2plZWVHWXJGMkEyMzZURTE1M05aRXdLcnM?oc=5",
@@ -2156,6 +2282,15 @@
       "category": "Estados Unidos",
       "published_at": "2026-11-24T04:32:00Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "7e66105e7f4e6ba83787cbf9",
+      "title": "Gold slips with spotlight on U.S. inflation data - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01bWhmbU4xZ1hKTVZnTGh3R2tubjZ5SlE0OFVjaGJDcGRzUHIzWnI1RmhuZzBDUkE3R2RIQ3ZDNU9xV282X3QxTFdvZVpIUUhWRnJEWXFCbDJ4QTNiLTNkRWtzYy16S3VWdFY2OS1rS1N1LXo4Z2JBcTNKb0FZNWPSAYQBQVVfeXFMTXd0ckxjMUlfaXVYbFFieDlSbWs1OWZWRkljX0VHM1ZJeE1wRWhNbFJFbmIwZXR4WmR5UC13NGpDaTVMNkw3Vk1EdG43S3c1VWx0WERuM0htTVpHRjFieV9VeVhfN3p2ZUgzQndxT0gxaFZDbE9NRW96VFV0eU4xU0owcWhf?oc=5",
+      "source": "CNBC",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-24T04:32:00Z",
+      "collected_at": "2026-11-24T18:22:01.726553Z"
     },
     {
       "id": "4adb77da019d99a2467933c9",
@@ -2569,141 +2704,6 @@
       "source": "Yahoo Finance / Acciones",
       "category": "Mercados",
       "published_at": "2026-11-24T00:19:08Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "de2596fd9814005557b6a3ba",
-      "title": "Staples Beat Tech After Just 3 of 9 Crashes",
-      "url": "https://www.trefis.com/stock/spx/articles/627545/staples-beat-tech-after-just-3-of-9-crashes/2026-11-23?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:18:29Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "d27c41c87ab42108cbb9eb44",
-      "title": "Why Analog Devices Stock Is In Focus Ahead Of Results",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-analog-devices-stock-focus-001820584.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:18:20Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "708843a3ccfbe6225e5e40cf",
-      "title": "What Microsoft (MSFT)'s Enterprise AI Partnerships Mean For Shareholders",
-      "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-enterprise-ai-partnerships-001743463.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:17:43Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "952bf68bdf4d5ed698347389",
-      "title": "Nvidia Surge Sends S&P 500 Soaring 4.7%, Nasdaq Jumps 6.5% - BusinessToday Malaysia",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNUo2aTNwMkZNZVJ0ejl2MHpmQWE3WWVEd3pVeUJ6U1F0dExKMlZfMWNQeExCdVVnb3JSanhlWGZxNFlMV1pOWUMtZ3lhTExsSWI3a0luTldzYmVwOERBRmdwQlAzSk52bUR5WlF5RzdjTDJNRVQ3LWhtS3ZhUld4QWt5Uloxc0UzWkVPWnQzTjc5X3lBRzk3TDdpTWZOMzZ1?oc=5",
-      "source": "BusinessToday Malaysia",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-24T00:14:41Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "60748dbd3344d439fdeb1fe1",
-      "title": "Central Garden & Pet Q4 Earnings Call Highlights",
-      "url": "https://www.marketbeat.com/instant-alerts/transcript-central-garden-pet-q4-earnings-call-highlights-2026-11-23/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:12:37Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "a09178d5fb0b3617025ac026",
-      "title": "En Puebla, 52.6% de los comercios tienen a mujeres como dueñas: Canaco - El Economista",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUU9nYi0tMmYySGdUMlJ0REN1SEZWdWVjNkZsY0NzZ0RYU1RkazltMENYN09EZjZiWkxwNGI5NVY0a1c4dDBvdHl1Ync3NUZYdGw1aENUY3BXQ2dNOEhhWDhmSFN0bzh5T24wM0pSZWV4clgxYVlqblJ6ZXFNNjhub0hock1qTGFJc29Xb1FCVThsYlk1RXJNOUV2R2d1WjgzQnpjSXVqUdIBrAFBVV95cUxQcVQ3cnoyX1Q0S1c5c3FEZ3RqQnlUWmtPbHBPZlNxNGk4QlZ4eEpheVNqMnhTeXZsTkoxNTd3RUNQLW9LR25DempZV3N3blkwOUNsZ0NvXzlSTUZDSWFjRVdRNFpsd050bUppalRJS05GN2t0OVY0NEplQ3dHSi1zMVJ3NlVuZVJBX0FQY2tvLTRUQ3p6dFROdlFiWTRoT052NUpESEJyQUxkTkpL?oc=5",
-      "source": "El Economista",
-      "category": "México",
-      "published_at": "2026-11-24T00:09:54Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "e48e54d0c2982a5aa32af40c",
-      "title": "SharkNinja To Join S&P 500 Index",
-      "url": "https://finance.yahoo.com/m/cc396177-40de-3092-88f3-436b29060cbe/sharkninja-to-join-s%26p-500.html?.tsrc=rss",
-      "source": "Yahoo Finance / Índices",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:09:34Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "a241126c1869dcb53e1cb13a",
-      "title": "What Did CF Industries Stock Investors Miss Before The Run?",
-      "url": "https://www.trefis.com/stock/cf/articles/627632/what-did-cf-industries-stock-investors-miss-before-the-run/2026-11-23?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:08:03Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "77efe4871d245e552bffed70",
-      "title": "Cathie Wood Swapped Nvidia for SpaceX Over the Risk of “Losing Jensen.” Now Jensen’s Back",
-      "url": "https://247wallst.com/investing/2026/11/23/cathie-wood-swapped-nvidia-for-spacex-over-the-risk-of-losing-jensen-now-jensens-back/?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:07:46Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "080c4ba294c926bd824f543f",
-      "title": "La economía apunta a crecer 2% en 2026, aunque pierde impulso para el cierre del año - La Política Online",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVEVmd182cjRfakNtb2Rjb2NrR2Q1amg0b0RMNC02bzlmVmtxeFZMNkR5R1VNczZWRkZCdU9JSlM4ZmFla1BmR1VEQlBYaXpOSm50SGN3eGxKOEFKZXFkT3lKajN3UUF2cEtDd1ZRcXJRdEhuR2xnU20wdkp6cTN0ZFZGR0JrQ1FBdVpvb2RleEtWNGNtWThJLVhMOTVScXlRTnVaTkNCaXp1UWxRV2JYR0c0QUlkTkoyNE1EcFVybDJZbzJJdHhjc3RpcU93ckl50gHGAUFVX3lxTFBhdnd2WHdZR3dOS1llek10clR5Mm1HR0xWSm0yR2pwR2NscjN0ZGNQcUt1dTlkT2FrTllMZ05VM1p0b28zR0hkRFlWVGd6OXZzTUdaaVRuUjZLSzZTU19qcmhQZmdGQjFGeXFYNnRhTlRGNWg0OEhVeU9teFBKdEh2N0dFNDV6VFZaQV9vMzNGTlBQQzhjQ3RDT1FTZHl1VE5ZbE5DcUxiWGlLdmdPRlZ6TkZLU0stZnU2NWMxSk5yVDZXMlBOZw?oc=5",
-      "source": "La Política Online",
-      "category": "México",
-      "published_at": "2026-11-24T00:07:12Z",
-      "collected_at": "2026-11-24T16:59:24.963040Z"
-    },
-    {
-      "id": "c0b69f3ad7290412b3e0acbf",
-      "title": "Why Nvidia Still Has a Problem Even After Jensen Huang's Return: Dan Niles",
-      "url": "https://www.coinage.media/2026/why-nvidia-still-has-a-problem-even-after-jensen-huangs-return-dan-niles?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:07:00Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "9bf7c59754869f36c09e553c",
-      "title": "Jensen Huang’s Return Sent Nvidia Soaring 31%. Here’s What It Means for a Retiree Who Has to Pull Money Out of an IRA Holding the Stock by Dec. 31",
-      "url": "https://247wallst.com/investing/2026/11/23/jensen-huangs-return-sent-nvidia-soaring-31-heres-what-it-means-for-a-retiree-who-has-to-pull-money-out-of-an-ira-holding-the-stock-by-dec-31/?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:07:00Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "7a0a39add8ac43741a609ba5",
-      "title": "'Chapo Isidro' será juzgado en México: fiscal Godoy • Seguridad - Forbes México",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42OWNKeTlqTW1nWWlyNXVQZVNXMEEwSzNaMTJrcHRWYjd1dUJ1VTZUUEtyZDFJekpvVVhadzREaGpOX1pWdFh5Q1h6Y1FsTUVKVkYwWUpfc3dkOS1SdVkyM182OW56QkJDWjF5Q2dwR0NHMlIzYjZnRE4xaw?oc=5",
-      "source": "Forbes México",
-      "category": "Política",
-      "published_at": "2026-11-24T00:06:00Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "781407da47ffcedd648ec76c",
-      "title": "Teamsters urge US lawmakers to quickly pass Chinese car ban - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUnVVYWNQLU5pMnI3eUxoUEN1NjFpTnhmckd6MFR3anZ0ZG5BT09xUWRrODR0ZkpFQjZVVXRUb0U1Q0xWN1FSMzBXUnNXVVU3X2dETGM1TE1HZGtLczhobWNXNHNxaEtTZkF2T1VtNlAwTkFNZm04QUJEQ0tXV0h5aF9WazFqdlZsVnNoMTlKWmhKczloanVvNUJhZnFhb1c0UmZSLUUzV1BDQVRnRWM5T0VhZ2dfOFBGRFBMRG94VQ?oc=5",
-      "source": "Reuters",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:05:00Z",
-      "collected_at": "2026-11-24T17:49:50.246396Z"
-    },
-    {
-      "id": "19c962b4cecd656d9a6f2fd2",
-      "title": "SharkNinja Stock to Join the S&P 500 as AES Leaves",
-      "url": "https://finance.yahoo.com/m/e7ad2b58-935d-3b0f-93a0-2e01ee4531b5/sharkninja-stock-to-join-the.html?.tsrc=rss",
-      "source": "Yahoo Finance / Índices",
-      "category": "Mercados",
-      "published_at": "2026-11-24T00:04:00Z",
       "collected_at": "2026-11-24T00:56:29.706292Z"
     }
   ]

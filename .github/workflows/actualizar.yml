@@ -20,11 +20,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  actualizar-y-publicar:
+  actualizar:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Descargar archivos del repositorio
         uses: actions/checkout@v4
@@ -52,9 +49,19 @@ jobs:
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
       - name: Subir sitio para GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: public
+
+  # Publicar va en un job aparte (patrón recomendado por GitHub): corre en otra máquina cuando el artefacto
+  # ya se subió, para reducir el error intermitente «No artifacts named github-pages».
+  publicar:
+    needs: actualizar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Publicar sitio
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

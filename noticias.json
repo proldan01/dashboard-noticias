@@ -1,11 +1,29 @@
 {
-  "generated_at": "2026-11-24T18:53:13.983739Z",
+  "generated_at": "2026-11-24T18:54:06.355780Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 241,
+  "new_articles": 243,
   "errors": [],
   "articles": [
+    {
+      "id": "64fdbd957953359be2048da0",
+      "title": "Peso pierde tras publicación de datos de inflación - Proceso",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUDB4OUg4ZldySlRzckFQMFNvb3c4TXdDaV93aGQ5UHBwejRSUlc1V1UteGs5eXk5M1VqM0ZiY0Q1Sng4NG0yS1NIbjREN1NUVFU3MHdjenNRT2NNOUFWZ1JPQ2VkaVhETEpsR2VFNUtER3lQZTFQWUFRbVVsUmlTRWRnb19xYU5PNGJ0cEMxaEkwdmpvSDNEa2RlYzRFSEI0dGNBeWpmdEhLMmVPeUE?oc=5",
+      "source": "Proceso",
+      "category": "México",
+      "published_at": "2026-11-24T18:51:52Z",
+      "collected_at": "2026-11-24T18:54:06.355780Z"
+    },
+    {
+      "id": "af373e1259db5beaa4615034",
+      "title": "Update: Equities Mostly Down Intraday as Nvidia-Fueled Rally Fizzles Out",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/equities-mostly-down-intraday-nvidia-185018469.html?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:50:18Z",
+      "collected_at": "2026-11-24T18:54:06.355780Z"
+    },
     {
       "id": "9765fcdc96449999ae43dcc8",
       "title": "Visiting Las Vegas is getting too expensive — but don’t blame airfares",
@@ -2687,24 +2705,6 @@
       "category": "Política",
       "published_at": "2026-11-24T04:29:52Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "9425e28f39d65d06508a608d",
-      "title": "China has changed tactics but is still thwarting India's rise, a U.S. panel says",
-      "url": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html",
-      "source": "CNBC / Politics",
-      "category": "Política",
-      "published_at": "2026-11-24T04:27:38Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "a5fed9c416d5bf7fec4d1634",
-      "title": "Congreso de Brasil aprueba ajuste fiscal de Lula en medio de presión sobre el real - Periódico Zócalo",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVUR3M0Fod3VTdXl0d1Y2dk5PblV1azdjQ29CZzNUc0M1TF91THhIMXQxSTdGSU96bzNmTVo0Z2ZCMWN6eXkyUWptd1d1WGZmWl84TTc1SHA4ODZFYkZ0RWlJNnhWMTNsSkZnSUpfdDhZYVpOU244VlpUMGZYUFRUWnJlMnN2Z2MwMjAxc0hmaXVYSXlaV1NGMmRwZ1JEdkVTWGRRbXVxeFJXQUdwcXc?oc=5",
-      "source": "Periódico Zócalo",
-      "category": "Política",
-      "published_at": "2026-11-24T04:27:21Z",
-      "collected_at": "2026-11-24T18:48:33.537691Z"
     }
   ]
 }

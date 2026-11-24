@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T18:50:52.629670Z",
+  "generated_at": "2026-11-24T18:51:36.078330Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 238,
+  "new_articles": 241,
   "errors": [],
   "articles": [
     {
@@ -34,6 +34,15 @@
       "collected_at": "2026-11-24T18:48:33.537691Z"
     },
     {
+      "id": "e55cb91b5d93e813939dc1a0",
+      "title": "How Low Can Intuit Stock Go?",
+      "url": "https://www.trefis.com/stock/intu/articles/627542/how-low-can-intuit-stock-go/2026-11-22?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:37:39Z",
+      "collected_at": "2026-11-24T18:51:36.078330Z"
+    },
+    {
       "id": "a469371963f8022ded74399a",
       "title": "Why Does Anthropic Stock Keep Dropping?",
       "url": "https://www.fool.com/investing/2026/11/24/why-does-anthropic-stock-keep-dropping/?.tsrc=rss",
@@ -59,6 +68,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T18:36:28Z",
       "collected_at": "2026-11-24T18:48:33.537691Z"
+    },
+    {
+      "id": "b8621401959e59e753859f1e",
+      "title": "How Much Could You Lose In PayPal Stock?",
+      "url": "https://www.trefis.com/stock/pypl/articles/627541/how-much-could-you-lose-in-paypal-stock/2026-11-22?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:35:34Z",
+      "collected_at": "2026-11-24T18:51:36.078330Z"
     },
     {
       "id": "30af317285d137bb77d04646",
@@ -95,6 +113,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T18:33:00Z",
       "collected_at": "2026-11-24T18:48:33.537691Z"
+    },
+    {
+      "id": "e57582825a955ea3818c3b34",
+      "title": "What Triggered The Move In Eaton Stock?",
+      "url": "https://www.trefis.com/stock/etn/articles/628633/what-triggered-the-move-in-eaton-stock/2026-11-24?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:32:19Z",
+      "collected_at": "2026-11-24T18:51:36.078330Z"
     },
     {
       "id": "1e4cd1ce804e20a0071f90bb",
@@ -149,6 +176,15 @@
       "category": "Estados Unidos",
       "published_at": "2026-11-24T18:30:28Z",
       "collected_at": "2026-11-24T18:48:33.537691Z"
+    },
+    {
+      "id": "24c4acb9728f8c71ec508290",
+      "title": "What Just Happened To Vistra Stock?",
+      "url": "https://www.trefis.com/stock/vst/articles/628627/what-just-happened-to-vistra-stock-2/2026-11-24?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:29:03Z",
+      "collected_at": "2026-11-24T18:51:36.078330Z"
     },
     {
       "id": "8e1f8fbf433dfc07d9960d25",
@@ -2669,42 +2705,6 @@
       "category": "Política",
       "published_at": "2026-11-24T04:27:21Z",
       "collected_at": "2026-11-24T18:48:33.537691Z"
-    },
-    {
-      "id": "4a5315c60b23b499e44afb10",
-      "title": "Watch these chip stocks for bargain buys after Nvidia’s post-reinstatement rally - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHdJODVpSUNFM3RybnBIUTIxdVhneE0zSXRQY2VpblJhTmR3QnYtSWM0RzExRUtqV1ZSb3pibmE4cW1UMVREZW1oT24tQURjQ0NJV2pxY0diS2dHSXdhUlhEek9XYWpiWUpuZ01DWF9wSjlLczZyMGRtdWxsMG5IU1pSeU1fanh1aGtjelMwdHBGZ1EzNzNWdjc2QQ?oc=5",
-      "source": "Yahoo Finance",
-      "category": "Mercados",
-      "published_at": "2026-11-24T04:02:00Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "48ac3e54bfc91661142edbe7",
-      "title": "$3,700 checks Gold’s recovery as US inflation test looms - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkZVcTlWMFNRdDFoTC1qUzJNNEh2b1FHZDc0Q3BGRTV4VmxNM0l3cEZUak51OV84MW9TbUNfM3M3VTF6UzRDeFJ4XzhvdlJBRHBnbUt1bFFzTjdSNERkbGl4S3VEWU9HUjZmSVBINWZ6RXliMVh5TUhxYlJydVk4dFlyTU5GelNGc0pSa3l5d1VOaXIzbGZBV0V5TkozYjR1X0hn?oc=5",
-      "source": "FXStreet",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-24T03:55:16Z",
-      "collected_at": "2026-11-24T16:59:24.963040Z"
-    },
-    {
-      "id": "f702a1d63d71f07329e1f493",
-      "title": "MSCI denies softer stance on Indonesia's market status, review ongoing - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTTJUZ0F2WXl0N0pfQ1RMYlVSTURkS3UxeHVudGRQb25nZUF5dmdvU2ZvNWZOM3dGSnlCajRIM2tOT051UnF2ekZGT2JqQU1Ta0pwbS1vVF9tQ2V5REpkbm81RndwQmJJb3FWeGcyeEFqVmhYQVhJaE9TcjlnUUJQb0dXS2E4YWRaR2p2RlE0NEdzWkp6UVdLU29BM2ZiY0xOS3g5UFFzMDBpMVI4V2pHaFBqZC1OZVFv?oc=5",
-      "source": "Reuters",
-      "category": "Mercados",
-      "published_at": "2026-11-24T03:51:00Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "ede68b7bc858ca7ca291dd70",
-      "title": "FGR investiga a Rocha Moya, Inzunza y otros ocho señalados por Estados Unidos - www.elexpres.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wZzFEdS03U3RLZC1Dd2V5Rm05WTkzVTA4TDl5WDBxeTVMMXZ5TEZLQVVPb3J4T0E4eHJ0ZlZyRjB2Z2ZiX1h6S0xodEFOdmNpSHBhcHFlMkJkc1c2N3c?oc=5",
-      "source": "www.elexpres.com",
-      "category": "Política",
-      "published_at": "2026-11-24T03:43:00Z",
-      "collected_at": "2026-11-24T16:59:24.963040Z"
     }
   ]
 }

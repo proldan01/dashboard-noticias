@@ -1,11 +1,20 @@
 {
-  "generated_at": "2026-11-24T18:50:08.275473Z",
+  "generated_at": "2026-11-24T18:50:52.629670Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 239,
+  "new_articles": 238,
   "errors": [],
   "articles": [
+    {
+      "id": "9765fcdc96449999ae43dcc8",
+      "title": "Visiting Las Vegas is getting too expensive — but don’t blame airfares",
+      "url": "https://www.marketwatch.com/story/visiting-las-vegas-is-getting-too-expensive-but-dont-blame-airfares-12e2c588?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:48:00Z",
+      "collected_at": "2026-11-24T18:50:52.629670Z"
+    },
     {
       "id": "8957ce7c74da13bda5e41d43",
       "title": "Contrasta Monclova alza nacional de inflación; baja 0.07% en noviembre - eltiempomx.com",
@@ -2491,6 +2500,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "19daad427e2cda6b5f736128",
+      "title": "Gold edges lower as markets await US inflation data - The Star",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaG9HUEhVenk2RFZOZENhQzl0RUZWME5uVExMNDA5RUtHUHdINkY4QmZzZVJtQVFLTmxRWF9SejhsdUVnb09jREdGQnZ5NWNJRjVncThXZV8yTDlmVnFsMENJeFg1Q2pwRUN2Vjg1RFdrZGNfbVl2QV94azBzcm40RlpES19sSG1sbHRoUmhlY29WWmc1eWc2dlZwaHIyNUkyR1V4LUxxQl9CNlFyNGk5elNn?oc=5",
+      "source": "The Star",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-24T07:30:00Z",
+      "collected_at": "2026-11-24T18:50:52.629670Z"
+    },
+    {
       "id": "bee6616e7ffbd78603807f51",
       "title": "Inflación en México sube a 3.96% en primera quincena de noviembre; chile poblano y jitomate suben de precio. - Al Contacto",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbnN6dmJBWTRFWS1LT2IzdktZdDdObXcyczU3Z2RIS0pJWlRvUWJFS2dacWg3amZwSDlJMUhDcDJnYzMxUk9NRURDWHFwQ0dWQXRWZlJHLUp2RkxNbkJJRFZBblk1MWdSd3NpU3F2QnQwS0dVaVlyWWhWNzFWTG01Z0VaMkQySDJDZnVSTnhtTnNiUHVYaENZUUxiZ2laUUkzS1o0c3Vjb0lsa2JPZE5pa29JZ0hUREx4Z0d5clFlNjFsTjQ4NzFCVGh2VWt4OGNaOXNmZFpzR0llS05FdzRMbA?oc=5",
@@ -2686,24 +2704,6 @@
       "source": "www.elexpres.com",
       "category": "Política",
       "published_at": "2026-11-24T03:43:00Z",
-      "collected_at": "2026-11-24T16:59:24.963040Z"
-    },
-    {
-      "id": "87728c402e39e55a3e53928b",
-      "title": "Tech stocks wane a day after a Huang rally as Anthropic tumbles below its initial offering price - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUVCY3pFVVBDUEwtWGlWa1ViLWE4eE9XeHk2R0s3MC1MSUpNblB6ZFZ5bmJPX0tXcGd2bk5FcVZHbW9oU3FNT2FwMzF4S05jNXlVRjBzZExNYWJ3ako5X24yVDhySHhnUU1HaGFxMUdjTGZsRHc0ZE1oREpqcjJoTHBORzdyWHRGXzhxbllTQ1pHc1hCdS1QVG9sSS1Gb3pkbkZVYw?oc=5",
-      "source": "Yahoo Finance",
-      "category": "Mercados",
-      "published_at": "2026-11-24T03:31:00Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "16ddeae34c4d5ab51a919a18",
-      "title": "El impuesto de la omisión y el factor Harfuch - El Economista",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdmpTbHhFTlN5d3dpOFphOGZBaUVhNk1XRUlnN1hQSkY4V2FyN0dJWUJPd0oxWUJPbV9rNWtZNmxFSF9HQ01YdGV5V1lycGNIanZuWVB5M25Dbmw2ZzR6MHZieWFrLVY0Z2VVUmJDd0RZVl81WjZwbFhNTGtfOS1NSjNiSUI5TGM2UFdmNk5raV9LZDJGQThj0gGcAUFVX3lxTE9FcHZ4VUlYUXBrQ2VaTjY5TzRMbzhoMjlWMVFpb1B0WGtraFpfd2tuZDVYZ2M1YUZBYzZiYlhRUjNGZ1FfQnUzaUZWY0N3YzlabTFyWTR6bDJURS0tOE5vZWpNcW1SUVRMUHRNT3BCOFBvVy1fTDE5ME9TNGhZQXNGNXlFSFdGSjEzMG1JSGhZMDZaSzV0RDNhNHFuTw?oc=5",
-      "source": "El Economista",
-      "category": "México",
-      "published_at": "2026-11-24T03:27:58Z",
       "collected_at": "2026-11-24T16:59:24.963040Z"
     }
   ]

@@ -85,7 +85,7 @@ main{padding:22px 24px 40px;max-width:1500px;width:100%}
 
 /* filtros */
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;padding:10px;align-items:center}
-.filters .field{position:relative;flex:1;min-width:210px}
+.filters .field{position:relative;flex:1 1 260px;min-width:240px}
 .filters .field svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:16px;height:16px;stroke:var(--muted);fill:none;stroke-width:2;stroke-linecap:round}
 .filters input[type=search]{width:100%;padding-left:34px}
 .filters select{flex:1 1 150px}
@@ -105,6 +105,32 @@ main{padding:22px 24px 40px;max-width:1500px;width:100%}
 svg.spark{width:100%;height:128px;display:block}
 svg.spark .axis{fill:var(--muted);font-size:9.5px;font-family:var(--mono)}
 svg.spark .grid{stroke:var(--line);stroke-width:1}
+
+/* filtros extra */
+.range{display:inline-flex;gap:8px;flex-wrap:wrap}
+.range label{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted)}
+.range input{min-height:38px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:-6px 0 14px}
+.chips:empty{display:none}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--accent);color:var(--text);border-radius:999px;padding:3px 6px 3px 11px;font-size:.78rem;cursor:pointer}
+.chip b{font-family:var(--mono);font-weight:600;color:var(--accent);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em}
+.chip i{font-style:normal;display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--surface2);font-size:.8rem;line-height:1}
+.chip:hover i{background:var(--accent);color:var(--accent-ink)}
+.content{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:16px;align-items:start}
+.recent{padding:14px 16px;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}
+.recent h2{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+.recent ol{list-style:none;margin:0;padding:0}
+.recent li{padding:10px 0;border-top:1px solid var(--line);display:grid;gap:3px}
+.recent li:first-child{border-top:0}
+.recent a{color:var(--text);text-decoration:none;font-weight:600;font-size:.88rem;line-height:1.35}
+.recent a:hover{color:var(--link);text-decoration:underline}
+.recent .rm{display:flex;gap:8px;align-items:center;font-size:.72rem;color:var(--muted)}
+.recent .rm .t{font-family:var(--mono);color:var(--accent)}
+.recent .rm .s{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.recent .dotc{width:7px;height:7px;border-radius:50%;background:var(--accent);flex-shrink:0}
+.recent .dotc.c-mx{background:var(--teal)} .recent .dotc.c-us{background:var(--blue)} .recent .dotc.c-mp{background:var(--amber)}
+.more{text-align:center;margin:16px 0 4px}
+@media(max-width:1180px){ .content{grid-template-columns:1fr} .recent{position:static;max-height:none;order:-1} }
 
 /* titulares */
 .listhead{display:flex;justify-content:space-between;align-items:baseline;margin:2px 0 10px}
@@ -172,7 +198,7 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
       <div class="actions">
         <button class="btn menu-btn" id="btnMenu" type="button" aria-label="Abrir menú"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>Menú</button>
         <button class="btn primary" id="btnRefresh" type="button"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 11-3-6.7"/><path d="M21 4v5h-5"/></svg><span id="refreshLabel">Refresh</span></button>
-        <button class="btn" id="btnCsv" type="button"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg>Exportar CSV</button>
+        <button class="btn" id="btnCsv" type="button"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg><span id="csvLabel">Exportar CSV</span></button>
         <button class="btn" id="btnClear" type="button"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>Limpiar filtros</button>
         <button class="btn" id="btnTheme" type="button"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.500 1.500M17.500 17.500L19 19M5 19l1.500-1.500M17.500 6.500L19 5"/></svg><span id="themeLabel">Tema</span></button>
       </div>
@@ -187,15 +213,29 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
         <input type="search" id="q" placeholder="Buscar en titulares y fuentes…" aria-label="Buscar">
         <span class="kbd" aria-hidden="true">/</span>
       </div>
+      <select id="fSec" aria-label="País o sección">
+        <option value="Todas">Todos los países</option>
+        <option value="México">México</option>
+        <option value="Estados Unidos">Estados Unidos</option>
+        <option value="Mercados y Política">Mercados y Política</option>
+      </select>
       <select id="fCat" aria-label="Categoría"><option value="">Todas las categorías</option></select>
       <select id="fSrc" aria-label="Fuente"><option value="">Todas las fuentes</option></select>
-      <select id="fDate" aria-label="Fecha">
-        <option value="">Cualquier fecha</option>
-        <option value="1">Últimas 24 horas</option>
-        <option value="7">Últimos 7 días</option>
-        <option value="30">Últimos 30 días</option>
+      <select id="fDate" aria-label="Periodo">
+        <option value="">Cualquier periodo</option>
+        <option value="1h">Última hora</option>
+        <option value="6h">Últimas 6 horas</option>
+        <option value="24h">Últimas 24 horas</option>
+        <option value="7d">Últimos 7 días</option>
+        <option value="30d">Últimos 30 días</option>
+        <option value="rango">Rango de fechas…</option>
       </select>
+      <span class="range hidden" id="rangeBox">
+        <label>Desde <input type="date" id="fFrom"></label>
+        <label>Hasta <input type="date" id="fTo"></label>
+      </span>
     </div>
+    <div class="chips" id="chips" aria-label="Filtros activos"></div>
 
     <section class="charts" id="charts">
       <div class="panel chart"><h2>Distribución por categoría</h2><div id="chCat"></div></div>
@@ -203,16 +243,26 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
       <div class="panel chart"><h2>Noticias por día · 14 días</h2><div id="chDay"></div></div>
     </section>
 
-    <div class="listhead"><h2>Titulares</h2><span class="count" id="count"></span></div>
-    <section class="grid" id="list"></section>
-    <section class="panel empty hidden" id="empty"></section>
+    <div class="content">
+      <div class="main-col">
+        <div class="listhead"><h2>Titulares</h2><span class="count" id="count"></span></div>
+        <section class="grid" id="list"></section>
+        <div class="more hidden" id="moreBox"><button class="btn" id="btnMore" type="button">Mostrar más titulares</button></div>
+        <section class="panel empty hidden" id="empty"></section>
+      </div>
+      <aside class="panel recent" id="recentPanel" aria-label="Noticias más recientes">
+        <h2>Más recientes</h2>
+        <ol id="recent"></ol>
+      </aside>
+    </div>
   </main>
 </div>
 
 <script>
 (function(){
   'use strict';
-  var state = { data:null, articles:[], section:'Todas', loading:false, fetchError:null };
+  var PAGE=60;
+  var state = { data:null, articles:[], section:'Todas', loading:false, fetchError:null, limit:PAGE };
   var $ = function(id){ return document.getElementById(id); };
   var SECTIONS = ['México','Estados Unidos','Mercados y Política'];
   var CLS = {'México':'c-mx','Estados Unidos':'c-us','Mercados y Política':'c-mp'};
@@ -273,14 +323,23 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
     fillSelect($('fCat'), uniq(state.articles.map(function(a){return a.category;})), 'Todas las categorías');
     fillSelect($('fSrc'), uniq(state.articles.map(function(a){return a.source;})), 'Todas las fuentes');
   }
+  var PERIODS={'1h':36e5,'6h':216e5,'24h':864e5,'7d':6048e5,'30d':2592e6};
+  var PERIOD_LABEL={'1h':'Última hora','6h':'Últimas 6 h','24h':'Últimas 24 h','7d':'Últimos 7 días','30d':'Últimos 30 días'};
+  function dayStart(v){ if(!v) return null; var p=v.split('-'); var d=new Date(+p[0],+p[1]-1,+p[2],0,0,0,0); return isNaN(d.getTime())?null:d.getTime(); }
+  function dayEnd(v){ var s=dayStart(v); return s===null?null:s+864e5-1; }
+  function periodBounds(){
+    var p=$('fDate').value;
+    if(PERIODS[p]) return {from:Date.now()-PERIODS[p], to:null};
+    if(p==='rango') return {from:dayStart($('fFrom').value), to:dayEnd($('fTo').value)};
+    return {from:null, to:null};
+  }
   function filtered(ignoreSection){
-    var q=norm($('q').value), cat=$('fCat').value, src=$('fSrc').value, days=parseInt($('fDate').value,10);
-    var limit = days ? Date.now()-days*864e5 : null;
+    var q=norm($('q').value), cat=$('fCat').value, src=$('fSrc').value, pb=periodBounds();
     return state.articles.filter(function(a){
       if(!ignoreSection && state.section!=='Todas' && sectionOf(a.category)!==state.section) return false;
       if(cat && a.category!==cat) return false;
       if(src && a.source!==src) return false;
-      if(limit){ var d=artDate(a); if(!d || d.getTime()<limit) return false; }
+      if(pb.from!==null || pb.to!==null){ var d=artDate(a); if(!d) return false; var t=d.getTime(); if(pb.from!==null && t<pb.from) return false; if(pb.to!==null && t>pb.to) return false; }
       if(q && norm((a.title||'')+' '+(a.source||'')+' '+(a.category||'')).indexOf(q)===-1) return false;
       return true;
     }).sort(function(a,b){ var da=artDate(a),db=artDate(b); return (db?db.getTime():0)-(da?da.getTime():0); });
@@ -414,13 +473,56 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
     barChart($('chSrc'), countBy(list,'source'), 8, false);
     dayChart($('chDay'), list);
 
-    var grid=$('list'); grid.textContent=''; $('empty').classList.add('hidden');
-    $('count').textContent = state.articles.length ? (list.length+' de '+state.articles.length+(state.section!=='Todas'?' · '+state.section:'')) : '';
+    var grid=$('list'); grid.textContent=''; $('empty').classList.add('hidden'); $('moreBox').classList.add('hidden');
+    $('count').textContent = state.articles.length ? (list.length+' de '+state.articles.length) : '';
+    $('fSec').value = state.section;
+    $('rangeBox').classList.toggle('hidden', $('fDate').value!=='rango');
+    $('csvLabel').textContent = 'Exportar CSV' + (list.length ? ' ('+list.length+')' : '');
+    renderChips(); renderRecent(list);
 
     if(!state.data){ renderEmpty('error'); return; }
     if(!state.articles.length){ renderEmpty('none'); return; }
     if(!list.length){ renderEmpty('filter'); return; }
 
+    var shown=list.slice(0,state.limit);
+    grid.appendChild(cards(shown));
+    if(list.length>shown.length){ $('moreBox').classList.remove('hidden'); $('btnMore').textContent='Mostrar más titulares ('+(list.length-shown.length)+' restantes)'; }
+  }
+
+  function renderChips(){
+    var box=$('chips'); box.textContent='';
+    function chip(label, value, clear){
+      var b=el('button','chip'); b.type='button'; b.title='Quitar este filtro';
+      b.appendChild(el('b',null,label)); b.appendChild(document.createTextNode(value)); b.appendChild(el('i',null,'×'));
+      b.addEventListener('click', function(){ clear(); state.limit=PAGE; render(); });
+      box.appendChild(b);
+    }
+    if(state.section!=='Todas') chip('País', state.section, function(){ state.section='Todas'; });
+    if($('fCat').value) chip('Categoría', $('fCat').value, function(){ $('fCat').value=''; });
+    if($('fSrc').value) chip('Fuente', $('fSrc').value, function(){ $('fSrc').value=''; });
+    var p=$('fDate').value;
+    if(PERIOD_LABEL[p]) chip('Periodo', PERIOD_LABEL[p], function(){ $('fDate').value=''; });
+    else if(p==='rango'){ var f=$('fFrom').value, t=$('fTo').value; if(f||t) chip('Rango', (f||'…')+' → '+(t||'…'), function(){ $('fDate').value=''; $('fFrom').value=''; $('fTo').value=''; }); }
+    if($('q').value.trim()) chip('Búsqueda', $('q').value.trim(), function(){ $('q').value=''; });
+  }
+
+  function renderRecent(list){
+    var ol=$('recent'); ol.textContent='';
+    var top=list.slice(0,8);
+    if(!top.length){ var li=el('li'); li.appendChild(el('span','sub','Sin noticias para los filtros actuales.')); ol.appendChild(li); return; }
+    top.forEach(function(a){
+      var li=el('li'), sec=sectionOf(a.category), u=safeUrl(a.url), dt=artDate(a);
+      if(u){ var l=el('a',null,String(a.title)); l.href=u; l.target='_blank'; l.rel='noopener noreferrer'; li.appendChild(l); }
+      else li.appendChild(el('span',null,String(a.title)));
+      var rm=el('div','rm');
+      rm.appendChild(el('span','dotc'+(sec?' '+CLS[sec]:'')));
+      rm.appendChild(el('span','t',dt?rel(dt):'sin fecha'));
+      rm.appendChild(el('span','s',a.source||'Fuente desconocida'));
+      li.appendChild(rm); ol.appendChild(li);
+    });
+  }
+
+  function cards(list){
     var frag=document.createDocumentFragment();
     list.forEach(function(a){
       var sec=sectionOf(a.category);
@@ -439,11 +541,12 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
       c.appendChild(foot);
       frag.appendChild(c);
     });
-    grid.appendChild(frag);
+    return frag;
   }
 
   /* ---------- Acciones ---------- */
-  function clearFilters(){ $('q').value=''; $('fCat').value=''; $('fSrc').value=''; $('fDate').value=''; state.section='Todas'; closeMenu(); render(); }
+  function clearFilters(){ $('q').value=''; $('fCat').value=''; $('fSrc').value=''; $('fDate').value=''; $('fFrom').value=''; $('fTo').value=''; state.section='Todas'; state.limit=PAGE; closeMenu(); render(); }
+  function onFilter(){ state.limit=PAGE; render(); }
 
   function csvCell(v){
     var s=v==null?'':String(v);
@@ -455,7 +558,7 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
     if(!list.length){ alert('No hay titulares para exportar con los filtros actuales.'); return; }
     var rows=[['id','titulo','fuente','categoria','publicada','recopilada','url']];
     list.forEach(function(a){ rows.push([a.id,a.title,a.source,a.category,a.published_at,a.collected_at,a.url]); });
-    var csv='﻿'+rows.map(function(r){return r.map(csvCell).join(',');}).join('\r\n');
+    var csv='\uFEFF'+rows.map(function(r){return r.map(csvCell).join(',');}).join('\r\n');
     var blob=new Blob([csv],{type:'text/csv;charset=utf-8;'}), url=URL.createObjectURL(blob);
     var a=document.createElement('a'); a.href=url; a.download='noticias_'+new Date().toISOString().slice(0,10)+'.csv';
     document.body.appendChild(a); a.click(); document.body.removeChild(a); setTimeout(function(){URL.revokeObjectURL(url);},1000);
@@ -470,15 +573,19 @@ svg.spark .grid{stroke:var(--line);stroke-width:1}
   function openMenu(){ document.body.classList.add('menu-open'); }
   function closeMenu(){ document.body.classList.remove('menu-open'); }
 
-  document.querySelectorAll('.nav').forEach(function(b){ b.addEventListener('click',function(){ state.section=b.getAttribute('data-section'); closeMenu(); render(); }); });
+  document.querySelectorAll('.nav').forEach(function(b){ b.addEventListener('click',function(){ state.section=b.getAttribute('data-section'); state.limit=PAGE; closeMenu(); render(); }); });
+  $('fSec').addEventListener('change', function(){ state.section=$('fSec').value; onFilter(); });
+  $('fFrom').addEventListener('change', onFilter);
+  $('fTo').addEventListener('change', onFilter);
+  $('btnMore').addEventListener('click', function(){ state.limit+=PAGE; render(); });
   $('btnRefresh').addEventListener('click', load);
   $('btnCsv').addEventListener('click', exportCsv);
   $('btnClear').addEventListener('click', clearFilters);
   $('btnTheme').addEventListener('click', function(){ setTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark'); });
   $('btnMenu').addEventListener('click', openMenu);
   $('scrim').addEventListener('click', closeMenu);
-  $('q').addEventListener('input', render);
-  ['fCat','fSrc','fDate'].forEach(function(id){ $(id).addEventListener('change', render); });
+  $('q').addEventListener('input', onFilter);
+  ['fCat','fSrc','fDate'].forEach(function(id){ $(id).addEventListener('change', onFilter); });
   document.addEventListener('keydown', function(e){
     if(e.key==='/' && !/^(INPUT|SELECT|TEXTAREA)$/.test((document.activeElement||{}).tagName||'')){ e.preventDefault(); $('q').focus(); }
     if(e.key==='Escape') closeMenu();

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T18:54:06.355780Z",
+  "generated_at": "2026-11-24T18:54:51.693406Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 243,
+  "new_articles": 254,
   "errors": [],
   "articles": [
     {
@@ -2491,6 +2491,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "7705ecf8dc9d056f05be478d",
+      "title": "Nasdaq Futures Fall as Questions Linger Over AI Trade - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRF8zTHRlWDE3bXMzTmlRTFpGeC1qaW9kVGRTeWt4YUpSN1lPR0NaX2puSUUzdFh2TnJpRF94dDJ0elNoM1NSMmZ6bmFZa21ZXzYwbFBodldzQU5EaVJYTmNVUl9McTlFcndfZm9CbkQ3alkxRElfWng2a3pRU092Um1ySXFOMEJuenNvVktxZGtBQXlUNVktUFFQZkR5WUs4WUNj?oc=5",
+      "source": "Yahoo Finance",
+      "category": "Mercados",
+      "published_at": "2026-11-24T10:13:00Z",
+      "collected_at": "2026-11-24T18:54:51.693406Z"
+    },
+    {
       "id": "6b80ab1931e6facc871a0483",
       "title": "Treasury yields lower after inflation warning from New York Fed's Williams, investors await 5-year auction - CNBC",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kVk10NWJKZmMxSHlDRjExaTRUbnMtRmhRTGFta21UaHg4NGNSZndMYTRxczhZSmg5TllvWi1LekdUcGc2c2hfcnVrQnhPR0NTSjI0QU0yZHpFZldCSndPWENKaXNKV0VubXYtTW9ndVllY3hRek1B0gF8QVVfeXFMUGg3N2J0czVpMHZ6dzNPbjdfb2dmYk9NQUw2ZmVQUG00UWlJeDdEaUkzSjJQMU5DOVVXQXg4YzBkYlJldkV0aFRjNXZJM2hKckRRR3lYc2xhemdhMk9rLTk4Q2Uxc3k0Xy1yOE9QZWVpM095amUwdk1BLXlHXw?oc=5",
@@ -2696,15 +2705,6 @@
       "category": "Estados Unidos",
       "published_at": "2026-11-24T04:32:00Z",
       "collected_at": "2026-11-24T18:22:01.726553Z"
-    },
-    {
-      "id": "4adb77da019d99a2467933c9",
-      "title": "MILENIO. . 🔴 La FGR tiene 15 carpetas de investigación abiertas y 40 domicilios ubicados como parte de la investigación sobre probables actos de corrupción en el INE, informó Ernestina Godoy; Guadalupe Taddei y Alfredo Hernández Casillas siguen en Mé - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTnI3RTBYT1N0Nkw2VW90OXJzZmkzcEFGVlMyOFVDV1JFZWgzdDdzSWxFTE00cnJwSW0xM1lKMGtlaTdzQ25YcUNRcl9uM3NNVHkxcFRBSmJTUGdXdHZEaXBoUkJFMTc3Und6ZTNmbzA1Y2JheDdvN3BhLXM0dGoyU3RrR1JGR04zZkxOYUZYYXg1ZXlrNVY5MDh0NE10RUNnUXg5THllS1ZBTkZJWHNWOWNqSUVxZ2dqUmt4Zi1LNi14YWlhWlhpTG00Q0tEbTAwemR5MVJXaExoeHBtWE5GRjg2cw?oc=5",
-      "source": "Facebook",
-      "category": "Política",
-      "published_at": "2026-11-24T04:29:52Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
     }
   ]
 }

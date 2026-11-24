@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T18:54:51.693406Z",
+  "generated_at": "2026-11-24T18:55:39.951814Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 254,
+  "new_articles": 255,
   "errors": [],
   "articles": [
     {
@@ -23,6 +23,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T18:50:18Z",
       "collected_at": "2026-11-24T18:54:06.355780Z"
+    },
+    {
+      "id": "81d458d38269e6280873a195",
+      "title": "The Last Time Netflix Was This Cheap, the Stock Jumped 600%. Is It a Buy Now?",
+      "url": "https://www.fool.com/investing/2026/11/24/the-last-time-netflix-was-this-cheap-the-stock-jumped-600-is-it-a-buy-now/?.tsrc=rss",
+      "source": "Yahoo Finance / Acciones",
+      "category": "Mercados",
+      "published_at": "2026-11-24T18:50:01Z",
+      "collected_at": "2026-11-24T18:55:39.951814Z"
     },
     {
       "id": "9765fcdc96449999ae43dcc8",
@@ -2696,15 +2705,6 @@
       "category": "Estados Unidos",
       "published_at": "2026-11-24T04:32:00Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "7e66105e7f4e6ba83787cbf9",
-      "title": "Gold slips with spotlight on U.S. inflation data - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01bWhmbU4xZ1hKTVZnTGh3R2tubjZ5SlE0OFVjaGJDcGRzUHIzWnI1RmhuZzBDUkE3R2RIQ3ZDNU9xV282X3QxTFdvZVpIUUhWRnJEWXFCbDJ4QTNiLTNkRWtzYy16S3VWdFY2OS1rS1N1LXo4Z2JBcTNKb0FZNWPSAYQBQVVfeXFMTXd0ckxjMUlfaXVYbFFieDlSbWs1OWZWRkljX0VHM1ZJeE1wRWhNbFJFbmIwZXR4WmR5UC13NGpDaTVMNkw3Vk1EdG43S3c1VWx0WERuM0htTVpHRjFieV9VeVhfN3p2ZUgzQndxT0gxaFZDbE9NRW96VFV0eU4xU0owcWhf?oc=5",
-      "source": "CNBC",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-24T04:32:00Z",
-      "collected_at": "2026-11-24T18:22:01.726553Z"
     }
   ]
 }

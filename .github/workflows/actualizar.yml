@@ -7,6 +7,8 @@ on:
   schedule:
     # Diario a las 07:17 Ciudad de México (13:17 UTC, horario estándar UTC-6)
     - cron: '17 13 * * *'
+    # Diario a las 16:00 Ciudad de México (22:00 UTC, UTC-6 sin horario de verano)
+    - cron: '0 22 * * *'
 
 permissions:
   contents: write

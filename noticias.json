@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T18:48:33.537691Z",
+  "generated_at": "2026-11-24T18:50:08.275473Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 266,
+  "new_articles": 239,
   "errors": [],
   "articles": [
     {
@@ -1753,6 +1753,15 @@
       "collected_at": "2026-11-24T17:49:50.246396Z"
     },
     {
+      "id": "6e94724412f342d8c41e02cc",
+      "title": "Fed apunta a subir tasas y Banxico a bajarlas: el peso mexicano paga la diferencia - Imagen Radio",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVUxZNDJLU3ZmTGs3bzl5dTNCMHlSVGtnanpVR0JNSTk5ZldRNUkwbWZKLWZxeUpMbWp2WEozRGl5MlBoZXFLdjVNQ1ViYzVHTE9ZUTl4d1lIa2ZRTDBCV2FaLU9IcmZoNDV6c2x3bnV4cnd1MjBMQkVuMDk4T0k1X2hDY3Z3anlmd0hHN0R6bEFCeENvbXVFUVdCMl9yZ19DY3BiQV82c3ZRY21yUnZ6R3h0a9IBswFBVV95cUxPVUxZNDJLU3ZmTGs3bzl5dTNCMHlSVGtnanpVR0JNSTk5ZldRNUkwbWZKLWZxeUpMbWp2WEozRGl5MlBoZXFLdjVNQ1ViYzVHTE9ZUTl4d1lIa2ZRTDBCV2FaLU9IcmZoNDV6c2x3bnV4cnd1MjBMQkVuMDk4T0k1X2hDY3Z3anlmd0hHN0R6bEFCeENvbXVFUVdCMl9yZ19DY3BiQV82c3ZRY21yUnZ6R3h0aw?oc=5",
+      "source": "Imagen Radio",
+      "category": "México",
+      "published_at": "2026-11-24T15:52:39Z",
+      "collected_at": "2026-11-24T18:50:08.275473Z"
+    },
+    {
       "id": "2b5be761d20dd8d5dd3d12c6",
       "title": "Fiscal asegura que el Chapo Isidro será juzgado en México pese a pedido de extradición de EE.UU. - La Opinión",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUklxSmJaRDZHRUxDdlJKT2ZsUEs3WS1wUmoyM2lXMnRlTklDNGZvRzNKMDdKaVlRYTA2M3M1ZkJVeE1oMUNuUXZ0SlVmZGlmTzBfMVIxRklicms0TDhGZ1dJR19DbFd6MUliNDh2bVMzYlVrUm41UzZRNmNhYkhtQUkzUEQ5VmlxVUdzaGVoUWFQRmFYTUktWXpIVHI5b1RhVkJ1c08tRFpVZWw2ZndQQzNpelRrRXRsRW01QUZha2FXQjNKYlpOcQ?oc=5",
@@ -2696,15 +2705,6 @@
       "category": "México",
       "published_at": "2026-11-24T03:27:58Z",
       "collected_at": "2026-11-24T16:59:24.963040Z"
-    },
-    {
-      "id": "2a0edc1c8a598e02da71b02e",
-      "title": "Citadel Securities: US Stocks May Repeat 2018 Selloff, Fed Unlikely to Ease Due to Equity Decline - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IbW16MmpKVzNMbFFuSjJwcm40TG9sQ2NEXzZMMWJkVm1CU1RBeEdfMV9NVUZnVkhnWjAzcmk0dzJYWmpFNktvS0lzOFlvN3M5UTBmSUMycEZWdTFaeUN4VjEwQmFJT3NxN0pka2NBS0lrOWtUdXc?oc=5",
-      "source": "BigGo Finance",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-24T03:25:00Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
     }
   ]
 }

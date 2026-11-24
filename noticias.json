@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T16:57:37.976212Z",
+  "generated_at": "2026-11-24T16:59:24.963040Z",
   "status": "ok",
   "sources_ok": 13,
   "sources_total": 13,
-  "new_articles": 308,
+  "new_articles": 242,
   "errors": [],
   "articles": [
     {
@@ -59,6 +59,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T16:41:58Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "0153348c1c03246ead796579",
+      "title": "Libertex lanza MCP para conectar sus datos de mercado con ChatGPT y Claude - El Economista",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWTZXVU9OSVE1UWFoM3B1b2h1ZnBraDBhSm9oSG02dEtvLTFDR1Fia1hTRkdzVTJIT1FjUTlpX2ZSOTdtcmVvQ1BGUExJLXJ0aTI2RENKNnZhM0YwSTc4MHd3Y05GSXkyTVoyQTZyRFoxZk4zMkVXNHJ4MkJ4dHA4OHkzVDBXWkpRS0hXMWJyWXRlWFdnYklueWgtSl8xV2NJSktyWFh3OVhGbnZjOER1amh2cVM3SVBzeFHSAb8BQVVfeXFMTlE5dG5pNlF2X0wzdk9BSno3VTFROUNpbXpac01vUGxOU0czaHozLUkyRjVfMkVGX3dDMzFpNTNrYTUwbm0ydXUyc2VPTjB0eWY3RUZkc0FyY1YyQk5JQkc1VWpfQXM0bDRocG5MZkxVVkl0bHI5LWNXR21Ua3hDeHhQVU9UeTFBYmR1SmEycmNycUFvMkx5emNlVDk0VWc3bXhoOWhzZm1XNWJVNlZSMmYtRDBYMFA3Q0x6SENsdjQ?oc=5",
+      "source": "El Economista",
+      "category": "México",
+      "published_at": "2026-11-24T16:41:21Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "350576a1bb29e4509da4d57e",
@@ -367,6 +376,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "e49468b3ab2ac44956c0e4c2",
+      "title": "Paquete fiscal 2027 de Edomex no saldrá en 'fast track': Francisco Vázquez - Milenio",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQk9JOEhhcnNPeTcxWWk5dXViS09Xd1BlelAxNDF4alpELXM2akhFZHBVVXd6R251ZXVwZllfWHRIUzBJMjlvZWlTLVY1M2l1d0l0WXZTa0pNVkp2cE9YQU95OV9Lek4wMG5nVnBBeGhPd2FhdUg1Vm5TMGk5X2cyVENSRlhwdWQtVUVSVThsek1Fd1E3a3FF0gGXAUFVX3lxTE9uY2JmbXVyV2ExVVRGOHV0M1lMSzlpSHdiN2o1LXNPZVBFNmlZYzhJc1NSTmNfTjRBQ1JENW91dDNjRDVXMDM0Y05vdDlPZVhBcHN3aGZtbnNQanlnakhtd0hYZTBwMHVMZ0ZTTktpMlltcE05LWxJMWprZlQ0T2F4UWItcTdyZEpqVElOZWoxeE1OVGRuQUk?oc=5",
+      "source": "Milenio",
+      "category": "Política",
+      "published_at": "2026-11-24T16:16:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "e26cf5682d1d4adf21af69b5",
       "title": "Jensen Huang Is Back at Nvidia, but Wall Street Is Already Getting Nervous Again",
       "url": "https://247wallst.com/investing/2026/11/24/jensen-huang-is-back-at-nvidia-but-wall-street-is-already-getting-nervous-again/?.tsrc=rss",
@@ -520,6 +538,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "11de40ee42792e7419ae8b9c",
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+      "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "category": "Mercados",
+      "published_at": "2026-11-24T15:30:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "7d8e92be2aa714930fa3a04c",
       "title": "Gold Price Forecast: Could US Inflation Data Trigger Another Selloff? - Coinpaper",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONFoyQkFQYlRvOGJRODN5cFRyV0dBSGE3OHVaVjRvX1hjM092aGotbXNMcGVOTUNKVkNzamdXNzlyTTRydk1oXzJvcXhNOGFQNVpSeWFUenNITW4tNExfdU1EaTdMLVNfVXhsX0x2Q0tSVERPVDJPNlRfZlZRTHdRYkh0RlhjVmhVYUhqcFNrc0ZCVDUwb19XUjk2UQ?oc=5",
@@ -608,6 +635,15 @@
       "category": "Estados Unidos",
       "published_at": "2026-11-24T15:02:30Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "321dfa810ce6f5a9dfae6b6b",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "category": "Mercados",
+      "published_at": "2026-11-24T15:00:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "ad58ce090b8ffa36132503ba",
@@ -700,6 +736,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "9d61539182d45f8899463ebc",
+      "title": "La inflación en México escaló al 3,96 % en la primera quincena de noviembre - Infobae",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX19PZ1FqZUotZTdScVlhN0M3aXVna2xmaXlPckRYQnJ3LUJMVGkweVdzZnI3alNXSXBfeWhicFYyVV84Vk9fZDFNM0VwQ2N1dkVYYUlKd0VpY2dTaVp1al92bDlpOXFvdmVZNUlJRmFZZ3oyYVFIcHZMSE5uUlZQQjJmWVZlTXl2VFdEZWF0dl8zQ0FrdVlMSEZsVmVMRWlQVkc1RktuLXA3eDBIdWtnQVhTREpzdE9tUDRlRWUzMklVN0HSAd4BQVVfeXFMTUxhMHViWERtQ3F4aHVTYjkxVTVYdERrTTlHNHlwamk1b1FOQmFRMXdsRTZFYzlxUzE4SGlQT0dfd040UTRvQWs3V1ZHUHRvRnVOSzRuNHlraHNrbjlCdF9HeU42TEsyYlZWd2NlWEs0S2RVcTE1ZC1ySlV4LW9TVWpwVGZ6dnduR29iaWpvaXZhMHNRb0dNbUUxeUdSd2NFVnRvM201OFJZSGdsUktDY2NaXzFyR3ZWNkVVanNtTjVuV3F3N0ppYTNZbUxjQVNzem9JRWdnczVnTEtMcnZB?oc=5",
+      "source": "Infobae",
+      "category": "México",
+      "published_at": "2026-11-24T14:17:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "a4c098353da66439ec5fb898",
       "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZlFHMUxxYkptX1RuUVVSbmwzSTJzY1R3N0VHQnBxakF2TzQwY1lheWFLSVhlSkY5TnJlaVBlZlpMTFo3Sml1M1ZEQnZ5VHZYekVpRHV0YTk3UnNvbUZzVzA1S201NkdCSjRvc0c4NXNtSkFBSFZTYUg0U1dlXzJsMXFrbUFQYm1DN1dHYW00eUR0Mjl2YlBRb3ZTams1ekNlNlBVaFpoaEx6d19mNVlyMmRuanM1Z1JQbmFBdGo0Nm02N2VLZGVBSHA3N0E?oc=5",
@@ -790,6 +835,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "e7b248e2a411f3b3fd548339",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "source": "CNBC / Finance",
+      "category": "Mercados",
+      "published_at": "2026-11-24T13:33:26Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "2aa802e441028e24009f0e6d",
       "title": "Brasil aprueba un ajuste fiscal entre la caída del real y el temor por la deuda - NotiPress",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNEI4SnB5bmxab3FDejdDTGR0ajF6cDBWLVJIS1F1bmp3SElvazhFM0M1QS1vVjdKeW1BWHZhVkdrNllxR0Y1UWp1Q0p4d3Bpc05SNnVoVUFtV2ZrbHVrNGNYZVRiX0dSaVlDMjdoTnlJSVQ2M1NWR3F6VEp6OUtHak81akI5RzhYV0tHb0VRbVdYMS12cVNzS3JIQjHSAZwBQVVfeXFMUDRCOEpweW5sWm9xQ3o3Q0xkdGoxenAwVi1SSEtRdW5qd0hJb2s4RTNDNUEtb1Y3SnltQVh2YVZHazZZcUdGNVFqdUNKeHdwaXNOUjZ1aFVBbVdma2x1azRjWGVUYl9HUmlZQzI3aE55SUlUNjNTVkdxelRKejlLR2pPNWpCOUc4WFdLR29FUW1XWDEtdnFTc0tySEIx?oc=5",
@@ -797,6 +851,15 @@
       "category": "Política",
       "published_at": "2026-11-24T13:26:00Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "0bfba9dddc32010ccd4fa1b7",
+      "title": "El ABC del Paquete Fiscal 2027 del Estado de México - El Universal Edomex",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUFhtX3hFbDhaLTJnYjlZcUxLQmFYb0FlOUM3dFhKTHdVSTh3TzdpYzlrSloybEJDQlpZWnVYZms0Q2VTeVF5bFZ4aWdaNks3bXNCQldxN0NubDVoQ19IeDlVSDRKTzkzSzBXZ2xTb3lqUVpIWTdXQWxUenNsOGhTRnpCWkJZUVVzNWlBLUs0d2kxRXRnSXAxRzhqbklWVEhITERyNGV0emF0a2QxVlhPYtIBxAFBVV95cUxNZmRfNWNEYXYxWEpuQlU0LWtMMFJzTnNBd2M0UkZ1Zmx5WGhZcEwtTEpzeENDN1Z6MXBodUd0WnVoZWNPS01zTXNRUVJRcmFFaHRnM1lYTW1qT0xYWjNSWTE1WC1ZcXlyVHFraHZ5N1ljSnQzSDN1ZFRxdGJfbzFKU3JqSmg1eHFBYXFrYjZ0LWRxeG5vNUZhd3JWMWd6QzNMMHUzaU8tUGp4T3llanl0WnpGcVVkZ1BmVTNsZ1A5N1dhUTJX?oc=5",
+      "source": "El Universal Edomex",
+      "category": "Política",
+      "published_at": "2026-11-24T13:13:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "250447edfbbccd998ca425cb",
@@ -1033,6 +1096,24 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "3b7bc4af2765440d9aa65fa5",
+      "title": "México juzgará a \"El Chapo Isidro\" pese a la solicitud de extradición de EE. UU. - https://fomoera.com/",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qNlVELVBDeTJsTVNKOExmUk9HaFl0ZnNjeHlqN0hBN2VRcjYxal81NjNCM3k3am9FOVIxY0NEdEt0RTZZSHRnVE9wTTZoaDRtNmxmT3B4bWxWUGhibFp0NVJfVE1EeGpOazhMWQ?oc=5",
+      "source": "https://fomoera.com/",
+      "category": "Política",
+      "published_at": "2026-11-24T06:35:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
+      "id": "903a00691e4dd3c5810836d5",
+      "title": "FGR confirma que ‘El Chapo Isidro’ será juzgado en México y no será extraditado a EEUU - W Radio",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczdMcUZNTnQ4bHltN3pCUmtJY0VKdTdIUDNCVkpEMFUyQnM2YWVkX0k1YVM5VTVrSERwTnNnV1kxLXJJLWplQ2NjMFptUy1nSENCOG1RNXp6Ry0wVmhUcWs3bWRCNmtSY1JQLXlPQWxDNVFSdWJxd3dsMGQ5YmRjSDRlaURDTUhGaXJXUUoyQjk1Q2xKQVZfSkR1dDllbFFESTlpYjVxMjh4MGRZM0d1VS1YT2RsVkdPRXfSAc4BQVVfeXFMT0ZjUzZRNUZXSXY2dzNNTHlZdWtLMFBGblRxWHZjQVVXUnpMeUFmcm5BeHdHaUpMaU1XbVZ5RS1kNV9yRXNJX1ZMYm1tcVR1aEc0TGkyYzBLTEowekpEamdHS2tkSDRISmlVUzh5U1lFUHZiaHdTNHRJQUNFcndIZ1FJVTZtOGs3SWx5dmNyaG5hU1RETEhMNEVfUk1jQzFCdDhvakpxRFVEbVVnNVZJUF9zNHNKX1NoQ2RFZGdTeDRrNEZ1V0dSWnlDN21NVEE?oc=5",
+      "source": "W Radio",
+      "category": "Política",
+      "published_at": "2026-11-24T05:46:32Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "4b32d6149f67b740ce07e25b",
       "title": "Claudia, Georgieva y el FMI - El Economista",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUxBSVBlLXVjMnhUU0FLeXRaUUZBbkI5LVB0TzNqX2M1SEN5LTEtbkdjWHcteWZuX2g0SlQxMUV0QldYSE5Sa2JDRGhFMjg2S0pYVVVhXzdUMmswVXdxeVMtX0hheHpwUVVIS0VJNkRBejNSODFQaFlsWlcwWnEyejU4SXh6M0trX3fSAY8BQVVfeXFMTjBVSXZQUjI1ZnJGcWF0ejlxVXVvNWlEakcwejBIVTRRVnhiR2xPcHA4d3M3ckhnblZMV0ZYVTRVVTV2UWc5TDh6T18zU2dFczUzUTZKeWdRdmFZdjFwMFllWXVGekRNRnhrbkU2ejM0UV9CbWVNUklxV3ZLQlBXb3R2MDBoUkMycEdRRE52LW8?oc=5",
@@ -1049,6 +1130,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T05:32:00Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "d005f7652d3091c9bc970280",
+      "title": "“Una Fiscalía que no investiga”: Roberto Ruiz cuestiona a Ernestina Godoy por el caso del INE - www.adn40.mx",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQY2UyY1BIM0thSGVqMEYxdXpJV3lpTTdFY3Z1WXdsX2N1aUNxdnk3M2ZCalNBU2JQbjBkc0stVjlsdXNsMV9FV2R3aENzTjV6UjVHa2tVRi1SYTBjcmkxZXAyU0ZDVVlQQWo0VjlBRTFvRkROWDF3RnVOY2ZSRUsyQnJzdEppYVNVSUJGUUd3T2VEdkNwaFVKX3RZekRrZDZRNlJ6UGVjYlkyWjFPbXdXYmtYenluRTAzUk5QaWtjM2VOeWlMU2lSZnVMSUlFZ281SDFoT3EzVV9NRmNDaXJFZA?oc=5",
+      "source": "www.adn40.mx",
+      "category": "Política",
+      "published_at": "2026-11-24T05:23:28Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "87c681ebecaaf00a34e0cfa2",
@@ -1132,6 +1222,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "48ac3e54bfc91661142edbe7",
+      "title": "$3,700 checks Gold’s recovery as US inflation test looms - FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkZVcTlWMFNRdDFoTC1qUzJNNEh2b1FHZDc0Q3BGRTV4VmxNM0l3cEZUak51OV84MW9TbUNfM3M3VTF6UzRDeFJ4XzhvdlJBRHBnbUt1bFFzTjdSNERkbGl4S3VEWU9HUjZmSVBINWZ6RXliMVh5TUhxYlJydVk4dFlyTU5GelNGc0pSa3l5d1VOaXIzbGZBV0V5TkozYjR1X0hn?oc=5",
+      "source": "FXStreet",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-24T03:55:16Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "f702a1d63d71f07329e1f493",
       "title": "MSCI denies softer stance on Indonesia's market status, review ongoing - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTTJUZ0F2WXl0N0pfQ1RMYlVSTURkS3UxeHVudGRQb25nZUF5dmdvU2ZvNWZOM3dGSnlCajRIM2tOT051UnF2ekZGT2JqQU1Ta0pwbS1vVF9tQ2V5REpkbm81RndwQmJJb3FWeGcyeEFqVmhYQVhJaE9TcjlnUUJQb0dXS2E4YWRaR2p2RlE0NEdzWkp6UVdLU29BM2ZiY0xOS3g5UFFzMDBpMVI4V2pHaFBqZC1OZVFv?oc=5",
@@ -1139,6 +1238,15 @@
       "category": "Mercados",
       "published_at": "2026-11-24T03:51:00Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "ede68b7bc858ca7ca291dd70",
+      "title": "FGR investiga a Rocha Moya, Inzunza y otros ocho señalados por Estados Unidos - www.elexpres.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wZzFEdS03U3RLZC1Dd2V5Rm05WTkzVTA4TDl5WDBxeTVMMXZ5TEZLQVVPb3J4T0E4eHJ0ZlZyRjB2Z2ZiX1h6S0xodEFOdmNpSHBhcHFlMkJkc1c2N3c?oc=5",
+      "source": "www.elexpres.com",
+      "category": "Política",
+      "published_at": "2026-11-24T03:43:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "87728c402e39e55a3e53928b",
@@ -1150,6 +1258,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "16ddeae34c4d5ab51a919a18",
+      "title": "El impuesto de la omisión y el factor Harfuch - El Economista",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdmpTbHhFTlN5d3dpOFphOGZBaUVhNk1XRUlnN1hQSkY4V2FyN0dJWUJPd0oxWUJPbV9rNWtZNmxFSF9HQ01YdGV5V1lycGNIanZuWVB5M25Dbmw2ZzR6MHZieWFrLVY0Z2VVUmJDd0RZVl81WjZwbFhNTGtfOS1NSjNiSUI5TGM2UFdmNk5raV9LZDJGQThj0gGcAUFVX3lxTE9FcHZ4VUlYUXBrQ2VaTjY5TzRMbzhoMjlWMVFpb1B0WGtraFpfd2tuZDVYZ2M1YUZBYzZiYlhRUjNGZ1FfQnUzaUZWY0N3YzlabTFyWTR6bDJURS0tOE5vZWpNcW1SUVRMUHRNT3BCOFBvVy1fTDE5ME9TNGhZQXNGNXlFSFdGSjEzMG1JSGhZMDZaSzV0RDNhNHFuTw?oc=5",
+      "source": "El Economista",
+      "category": "México",
+      "published_at": "2026-11-24T03:27:58Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "2a0edc1c8a598e02da71b02e",
       "title": "Citadel Securities: US Stocks May Repeat 2018 Selloff, Fed Unlikely to Ease Due to Equity Decline - BigGo Finance",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IbW16MmpKVzNMbFFuSjJwcm40TG9sQ2NEXzZMMWJkVm1CU1RBeEdfMV9NVUZnVkhnWjAzcmk0dzJYWmpFNktvS0lzOFlvN3M5UTBmSUMycEZWdTFaeUN4VjEwQmFJT3NxN0pka2NBS0lrOWtUdXc?oc=5",
@@ -1157,6 +1274,15 @@
       "category": "Estados Unidos",
       "published_at": "2026-11-24T03:25:00Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "5fb1cc76d1547ba26b362933",
+      "title": "FGR descarta extradición inmediata de El Chapo Isidro y confirma que enfrentará juicio en México - ContraRéplica",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLUJTZ2p3aDNfUk1qemRfeTNEVlZ4c1Q4RS14SE82SHI5VzNUeFloUHZGcEhjamVNa0VoMUJzbGMwMUY1MV9aY1pxUXRyNmg3amlLdXFUckpJbnJKRUxSR3RkbE0zR3JWUU0xaGQxVGNkdEVFdld1TVo2MU56NUg5WEg5b0FPbEx2OUh3dktZenVvcUpoTkpPZXBVYnZ5a2RiYU14eXVtVHRiWTlPQWNXOVd6YVdKU29fdXBUU0RVcFkxQm9reExsOFRxMUJYd1V2MUxIQjFkNUt6bEdDRU5R?oc=5",
+      "source": "ContraRéplica",
+      "category": "Política",
+      "published_at": "2026-11-24T03:24:16Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "bbf6ab28bc95f74ff887d274",
@@ -1168,6 +1294,15 @@
       "collected_at": "2026-11-24T16:57:37.976212Z"
     },
     {
+      "id": "689c89de294ced36fc1e3a45",
+      "title": "SE REÚNE TITULAR DE FGR CON INTEGRANTES DE LA JUNTA DE COORDINACIÓN POLÍTICA DE LA CÁMARA DE DIPUTADOS - Nayarit Noticias",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdVJpeGVyNFMzYWw2ODZuZkw3SXR6dU9wcTA1X0FGaFotME13S0xwQVZaSHpUT3RRMVRkb2Q1ekFpVjZkM1J2Y0hiOWR5WE5FSHA1NW4yTkJONDI4SG5PclY0U2NGcWlnMm9vcjhNMmlDcXR2bFVSYVd0a1JZUWgyUWpfTE1CUklJakcxU1NvUWFLdlJ4RVBVSF9wWkk5NURLLUNFTk5xR09MaGVaYnhCYk8wWUpQSXNWdGtpVWRSSWM1cmpraThrMlpWdDdJWUk5Zk5EUGM5SlBtdw?oc=5",
+      "source": "Nayarit Noticias",
+      "category": "Política",
+      "published_at": "2026-11-24T03:19:38Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "b2d3d91fa17f341f3486cf89",
       "title": "Regreso de Jensen Huang dispara más de 30% a NVIDIA - El Economista",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWmlSeFEtTEw5TGFOSU1BWnE4U3VhZGVJQ2RDUzhNeWEzNnlJRDlQR0FWbXFrMkRwUHpVQjRHUC14cnJ1RmVHVVEzRGwzcUhkMWhxX3laQXZEdXFzdjIzUlB1M25oMjVUdEY2ZWpOTm9FeXR5cXQtSUNmWmpEbmtER3FEVnBWM2ltNWlYMFZTUFRSOU1lMDZFcFh2bjlqM2R3eUHSAacBQVVfeXFMTVp4cG5KdEJ6bGpXS0FtMnlGbWRGRnktX1Z3RmxsRzNpTmdSaTFzT1JCVDB6TU43U0dEbzZHa1ZDaUs2MFNXSF9za19oYjlCRDVBcmV6MUVZRkhrTlhmeWVxakdXb2U2Ym5COGMyXzg3RzI4T1lyUnFvbGx3U0dLVTZjMk9WcW5qRFU1ZTZOOVBiQTUzUHFFamVmVnNHTmVKaF9DOElYSzQ?oc=5",
@@ -1175,6 +1310,15 @@
       "category": "México",
       "published_at": "2026-11-24T03:08:35Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "95bcc4dcfeadcee6fb6a2ffa",
+      "title": "Wall Street respira gracias al \"efecto Jensen Huang\" en NVIDIA - El Economista",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMUVNSm5qQXg4cmRmbUtGZXN3Zzc1MUExbUUwVVlVVjdySURYR0d3RGpPWC00bFVIN3g2WE1WQ2xGTER4VmREaFB4VW5USGJNLVE3MnlpcmFWT3JFNmJWY2I5cTBRZkMweHlNWE5SVEgxWGZLQW9EdUhwQWZuNTJVNGt0MnZsX2RRRlhiNGJFR0lrbFU3WlRmRFZfOFFDckNaWlM2QnRIQV9VU0RwN21IdVAxOEttTmfSAbwBQVVfeXFMTjdRNDFlejM2bGNud1M4ZHEzdE9qdGxtaHhIcGtPM2lEc0Z5UE9fRmt3SHgwQjljSi1meF94QWdROFlSODFQRmMtRkUwTHEwMlVFRWN0X1BWdzVwb2tyVFhKUHU3TWxfSlZVMTdmWmV1R1E2anJjc0V3WjgweTh4ZFNndGhoM1p6TzdGOVpya0sySDAtRTZzeS1SNmtja19TWFQxTi11UEdQelJYWWQycXhNelgzbklwTkg0d20?oc=5",
+      "source": "El Economista",
+      "category": "México",
+      "published_at": "2026-11-24T03:06:43Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "543027b4c374f8547da348d7",
@@ -1211,6 +1355,15 @@
       "category": "México",
       "published_at": "2026-11-24T03:00:38Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "59239609dac0dd4ae156db11",
+      "title": "FGR cita a Rubén Rocha Moya y Enrique Inzunza por señalamientos de EU - Récord",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcG81QzVxU1k2ZjBodE9qNnlmVF9vazdfZkNjWUpSdmExSjBaMENQcjF1S184YTg0ckdVR3RfWUduS21jYnlQTGx6MFk1MHlzbXZVQlNWQy00NXBvNy1DeEFlSzU4NWMtV3hqZ0RlbG1GU0l6WUkwR3lVR0ZrVktSY0MtT0lVZ2dBQ2lQalljNE9DU05vbHFvNzNKSUNqcmVMazcyUmc1Nkk2NWFSbmVVblZNMGlvR2QwNERTU2RuVURjdw?oc=5",
+      "source": "Récord",
+      "category": "Política",
+      "published_at": "2026-11-24T02:59:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "578e0b9b1473c828b1d122eb",
@@ -1274,6 +1427,15 @@
       "category": "Estados Unidos",
       "published_at": "2026-11-24T01:41:07Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
+    },
+    {
+      "id": "8f275471d54696de79e65305",
+      "title": "Ringgit Finds Little Relief As US Treasury Yields Strengthen Dollar - BusinessToday Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNy1WbU4tOVN3elkxSzhMMi1iRTZDOWxBODN5czBWY21OdGUzVTdrbUg5eUFreDVTRkl2ZG16dVlDYTE4ZjhHeWRtSHljY1ptVEpBYlpzWVN1Yzd4VzZhUXJHM1VJT2ZJSm1YY0F6YmlFdUg0eDEyOTZlUWZ5VEZOdXJvUmJmbVhpOE1DNGYtZWhSUHpYbGRScXA3dWdHNU5VQ0pPOFl5X1BvZGJVb1hUTVpn?oc=5",
+      "source": "BusinessToday Malaysia",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-24T01:38:21Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "53e65cc2e018bab477e65d48",
@@ -1519,6 +1681,15 @@
       "collected_at": "2026-11-24T00:56:29.706292Z"
     },
     {
+      "id": "080c4ba294c926bd824f543f",
+      "title": "La economía apunta a crecer 2% en 2026, aunque pierde impulso para el cierre del año - La Política Online",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVEVmd182cjRfakNtb2Rjb2NrR2Q1amg0b0RMNC02bzlmVmtxeFZMNkR5R1VNczZWRkZCdU9JSlM4ZmFla1BmR1VEQlBYaXpOSm50SGN3eGxKOEFKZXFkT3lKajN3UUF2cEtDd1ZRcXJRdEhuR2xnU20wdkp6cTN0ZFZGR0JrQ1FBdVpvb2RleEtWNGNtWThJLVhMOTVScXlRTnVaTkNCaXp1UWxRV2JYR0c0QUlkTkoyNE1EcFVybDJZbzJJdHhjc3RpcU93ckl50gHGAUFVX3lxTFBhdnd2WHdZR3dOS1llek10clR5Mm1HR0xWSm0yR2pwR2NscjN0ZGNQcUt1dTlkT2FrTllMZ05VM1p0b28zR0hkRFlWVGd6OXZzTUdaaVRuUjZLSzZTU19qcmhQZmdGQjFGeXFYNnRhTlRGNWg0OEhVeU9teFBKdEh2N0dFNDV6VFZaQV9vMzNGTlBQQzhjQ3RDT1FTZHl1VE5ZbE5DcUxiWGlLdmdPRlZ6TkZLU0stZnU2NWMxSk5yVDZXMlBOZw?oc=5",
+      "source": "La Política Online",
+      "category": "México",
+      "published_at": "2026-11-24T00:07:12Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "c0b69f3ad7290412b3e0acbf",
       "title": "Why Nvidia Still Has a Problem Even After Jensen Huang's Return: Dan Niles",
       "url": "https://www.coinage.media/2026/why-nvidia-still-has-a-problem-even-after-jensen-huangs-return-dan-niles?.tsrc=rss",
@@ -1600,6 +1771,15 @@
       "collected_at": "2026-11-24T00:56:29.706292Z"
     },
     {
+      "id": "b81e6572835844ae971e1b41",
+      "title": "México confirma investigación contra diez funcionarios de Sinaloa señalados por EE.UU. - www.abc.com.py",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQkU1b3BVZkMzUWROLTR5bThDZVBYank1MmkwMzllX2d6MlpnZzRocXRRV0FpZG9WTGs4QzlEcWx2Rmd4emFuX2htTWNmVHBiZzl1aXVjYVVZNWl3Y2dRTjRoaWdJS3VPTkJvU1REWTMtYmJJclNRamF1eWFUaXIzZnpaQkdCcnZlV09NQ2JfSUJOZUJ1V01vU2R0RnFwQ05HYUFHOHU4azFUWXlMUllWWDFkV2EtRnl0aXRac2xqRWZEUlNkMy1RMEZ0UUQwLVlHTUlyZ2JETkp4UkFiWTdJRy1lMWc?oc=5",
+      "source": "www.abc.com.py",
+      "category": "Política",
+      "published_at": "2026-11-23T23:50:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "0cd41bb640cf3df1eb0f41fb",
       "title": "FGR investiga contratos del INE, Guadalupe Taddei y contratista aún sin orden de arresto: Godoy - Diario de México",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcmVRbEN5U3JkbEppQ3hJYVVlSDdlcVNIUk11WnBuLXVZX2VDN0tuQzhRNzA1U3hpWGx6S1pSaERUM3pRZHc0SW5oanhoRkxrUXgzOFdUeW5rc2RqNmZTa1YtOWlBVVc1MU1oQUc4SmprUXotMDhmc2EwQ0RHTFh0eWUtVUs4OWs0WnE0al8xQlE1ZF9EZ3pPYUFkNDQwT3BKb09XUHZrR3ZFelQwMk9ZVzdMd1Rwc1BKOXlKN2VB0gHDAUFVX3lxTE9LdXdCNXlKOG95Mi0yM2l5SFlKSUxsUDJIUGpSVDF0Tm52UkJ4Ty1OUDFYVzcwci1nTVpBbEh4bktuUXJmSWdoNEpNV1pRM3NtWUYtOWI1cnd4ekdmNTV1a08tNFM2aU5BMGlUNmJSTk1tZ01GV0JIR3lGaEpEcXRlcEEwUWRrd2Q4WWtMOUVrMG9mTWNBRjJPU19JVzZhTmtyOVJDNGswODFLb2dGU1VCblQ0VlJtbHdOTEt1RU5DYmhiUQ?oc=5",
@@ -1607,6 +1787,15 @@
       "category": "Política",
       "published_at": "2026-11-23T23:47:26Z",
       "collected_at": "2026-11-24T00:56:29.706292Z"
+    },
+    {
+      "id": "5c915997133728407cee7703",
+      "title": "FGR investiga contratos del INE, Guadalupe Taddei y contratista aún sin orden de arresto: Godoy - Diario de México",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPS3V3QjV5SjhveTItMjNpeUhZSklMbFAySFBqUlQxdE5udlJCeE8tTlAxWFc3MHItZ01aQWxIeG5LblFyZklnaDRKTVdaUTNzbVlGLTliNXJ3eHpHZjU1dWtPLTRTNmlOQTBpVDZiUk5NbWdNRldCSEd5RmhKRHF0ZXBBMFFka3dkOFlrTDlFazBvZk1jQUYyT1NfSVc2YU5rcjlSQzRrMDgxS29nRlNVQm5UNFZSbWx3TkxLdUVOQ2JoYlHSAcMBQVVfeXFMT0t1d0I1eUo4b3kyLTIzaXlIWUpJTGxQMkhQalJUMXRObnZSQnhPLU5QMVhXNzByLWdNWkFsSHhuS25RcmZJZ2g0Sk1XWlEzc21ZRi05YjVyd3h6R2Y1NXVrTy00UzZpTkEwaVQ2YlJOTW1nTUZXQkhHeUZoSkRxdGVwQTBRZGt3ZDhZa0w5RWswb2ZNY0FGMk9TX0lXNmFOa3I5UkM0azA4MUtvZ0ZTVUJuVDRWUm1sd05MS3VFTkNiaGJR?oc=5",
+      "source": "Diario de México",
+      "category": "Política",
+      "published_at": "2026-11-23T23:47:26Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "6be4dbb95dd4cd09b3e4e73c",
@@ -1627,6 +1816,24 @@
       "collected_at": "2026-11-24T00:56:29.706292Z"
     },
     {
+      "id": "13f8d897c04d8ef65c7476dd",
+      "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
+      "source": "CNBC / Politics",
+      "category": "Política",
+      "published_at": "2026-11-23T23:42:17Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
+      "id": "5e841be1c505745b0a1bfa52",
+      "title": "“No los tenemos ubicados, porque no los estamos buscando” Ernestina Godoy sobre Guadalupe Taddei y Alfredo Hernández - www.adn40.mx",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMlFkWDBlZ3FOaEZwYldQZEFubXkwOTJhcnl2dm80cklla3JqbV9wWV9yNHVYTXF3dkdWdHZLaGlTa1NVelNzWmVEaFFfSUpESXNNMkFFRDlwVnhybkZwX2tzQnBSTmlsYnIxWE05Ny1oNWJFUkxqZl81OGV3VEV4c09tWmRYWUthQkZVd1FjbVZST29ITVZ6YndLUkhQZHhsY1FKS1NCa0dXYlBVZkRmTXJ1VDRGZmhERDhrSTFpbmV3VHZzb3VrcGtlZmZ0UEdvZndFRk1qTDc5R2FhMkJuVG92LTJHN2twSEZuVUYwUHhuX2FDTVN6aXBsUmp0RU0?oc=5",
+      "source": "www.adn40.mx",
+      "category": "Política",
+      "published_at": "2026-11-23T23:42:05Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "1a6a8c359d52f755e15aa839",
       "title": "Fed's Williams says inflation still too high, signals more rate hikes possible - Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa3lvbHFTMGFKUm9paUJYVzFoQzd1QnQtSzAtTlZmSlFyRW5Sc1hic3p2MVV0VWVrYjFkNDdQZlFTUWMzZGFueG5yMTVMcGhLWUxwQi16Ujk5b2ppMVRWTGowaHlMZDQ4Z19xbWpCQTRFVzFHSHhxeW9kbG80OTVtSEZsb3REX29FRFFPR0xzTnFjYXh6?oc=5",
@@ -1643,6 +1850,24 @@
       "category": "Mercados",
       "published_at": "2026-11-23T23:37:39Z",
       "collected_at": "2026-11-24T00:56:29.706292Z"
+    },
+    {
+      "id": "a52c79bd009dcee1ab40f2bf",
+      "title": "La Fiscalía abre 15 carpetas de investigación por la corrupción en el INE; alista cateos en 40 domicilios - Diario Red",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPOTc2cXhLV19CR1lLUEJwN1lUZWMwSS1aNGd4TmdsT2VoS1VneGxvVkxacU05bVFPU1lNWE1relVwd0RHSlBSWWxWM056NW5aZHFwdnNBSWQ4b0RKLTBCcnI2czJCOTBkdHZrQWNXLXpzSEplb0tyeWFGSF9fbXJJU3dLZEJERnpnVi1SS0MtWGlPZnNSOERzSWJmZzR4OVBRc2dIdk5GcDNseHZSZDVIRHVLcWgwRnFrdE90SHZYck1JQTlJckxVRXRTbjJFX1pYNTJFRXlXNVZlYjdHblY1LWdVN0xfc0pNS3A5Q3NtNDZUNkxEbU90aTNtUXNTZmRPb0HSAYcCQVVfeXFMTWtJd2c1LU1Bd1ZHSjZHYmE1SlpPWTZaSlItVDJrNml4aUhnbVhQRFJqRnJsUW51MlZYQm1yWmNCS1Q0dHdEZ0hPQTctQzkwNkdiM184LTB4dzJ1bC1KNVVoNTJMVTRLTVYxaG5yRkt0eUs5UVhRZVJWWWRHbE5DdlBvX2FMZ1htY2RIQ3VHaDhTdzRlT2pUb2pMMzU3TFdaR20yYUJ2Qk1HZjdVYkI4YUduTE5kRGtBSXE0ZFJOR1BQS3hMUmdlbG96YXZ5U2Rsd2I5UWx5VXMzdGRKR1RYRWhiS0djRmxoSWt0VXBTOGVKT2Z3WElCblVpTkk3U3NYaHczc2F4VEE?oc=5",
+      "source": "Diario Red",
+      "category": "Política",
+      "published_at": "2026-11-23T23:36:31Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
+      "id": "fb4f39ed1a00a537181a09c0",
+      "title": "Fiscalía mexicana ubica 40 domicilios ligados a corrupción en el órgano electoral del país - www.abc.com.py",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPalFtdkxSVmZGV3RDenh0NnZZQWVMRFBmZFIxWmdEc2l3T0RRaTV5MHBIYXJiVVIzNWxMN0JDTi0ycmpQSHIwVkMydTFmTUZicVRiZS12Qng4SE5ocWhfa05hcHB5WllTSkpfNlFOQjlsTnU2cUdKLUhVelgzbkc3WkNiWmV0U2xaQUYwOXB0c01RY2pkWXdpSHNQQnd6MXVzb0F2WTNzVnRzOEFqemJwZTFpSVpJU1lNOWF4cmMyYTZGS29KWFM4Q1hVcWg3T09XM05pZlpYamtVeGlMMUlJZVpvSWVJSWhwSExYdw?oc=5",
+      "source": "www.abc.com.py",
+      "category": "Política",
+      "published_at": "2026-11-23T23:35:00Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "977b8efc91edfdbf6023c9f0",
@@ -1807,6 +2032,15 @@
       "collected_at": "2026-11-24T00:56:29.706292Z"
     },
     {
+      "id": "1db1b34ee0222056710f1206",
+      "title": "DNI Jay Clayton tapped as acting national cyber director",
+      "url": "https://www.cnbc.com/2026/11/23/jay-clayton-cyber-director-kirsten-davies-trump.html",
+      "source": "CNBC / Politics",
+      "category": "Política",
+      "published_at": "2026-11-23T23:02:18Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "d9999ba35ff3396c77483ddb",
       "title": "Why CrowdStrike Stock Was Down Today",
       "url": "https://www.fool.com/investing/2026/11/23/why-crowdstrike-stock-was-down-today/?.tsrc=rss",
@@ -1825,6 +2059,15 @@
       "collected_at": "2026-11-24T00:56:29.706292Z"
     },
     {
+      "id": "8c82824ca5b5f265a7268004",
+      "title": "Forget 3% US Inflation. It’s Heading for 4%: McGeever - EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcmJPa1BsVFFXUktudmRKOEhhWk9NR0VtWFoyckpfaEx6MUFnUkc1Ym4yckFXU29ERWd2NVlhbXB1ZlRtdTdxREE0RWprLWFsaVkwUVdUcmpxMVJJSVBwY1ZrNUFGWGJQSWgzN0hwMHhVY3dEcXdUNUgwdEM4ZTZqV1BXdGpzdw?oc=5",
+      "source": "EnergyNow.com",
+      "category": "Estados Unidos",
+      "published_at": "2026-11-23T22:49:58Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "9e23eeaf791efa239cd5098f",
       "title": "La FGR tiene abiertas 15 carpetas de investigación por caso INE - El Economista",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSGRRSm9JYzZUWlBpSmZKQWdubnQ4Uk0za3FvUU9ncnF0U0c1dDhYVEtiLTVPckJHNFdGOEQtVVRmMkRlRUdFekE3TWg1VU9CbFNUSVF0ZFNQTHQ2XzVEVVNJdVk3Qm9GQVZFRGQtQ1BRbzF4MExZNGp4THpWQU9IUF9RZVhjdDVvcTlhbEt3SWV2RW5GaWFaeGJXVGFVU1hJMHNxdFlGNDRqWVZCLXfSAbMBQVVfeXFMUG9mcTc3TEVReXNnem1ORW4zZFNSTHdiSGUyZzdsdkVHekFJMTNNT3JQRVJkRVBnOHYtY0o2MHEyYUY5LW5LRlR6NmlTUm1pZ3ZsSWVtdWlISl81RDl5Wl9vR1FBaHdOcC10N3BqMktlTTh2c3FEOF9RSExXQV9TbkVQTzdfSy1oTmhPaHBYX21Mcy1SanVTeDFaYm9QdmNGQ1NscWpydVdZWXN4RWFfNG1VcGM?oc=5",
@@ -1841,6 +2084,15 @@
       "category": "México",
       "published_at": "2026-11-23T22:48:02Z",
       "collected_at": "2026-11-24T00:56:29.706292Z"
+    },
+    {
+      "id": "992e39c481e99801f89b8fb0",
+      "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+      "source": "CNBC / Investing",
+      "category": "Mercados",
+      "published_at": "2026-11-23T22:43:38Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "e2f66e891886c046569b02c6",
@@ -1906,6 +2158,15 @@
       "collected_at": "2026-11-24T00:56:29.706292Z"
     },
     {
+      "id": "13c15b2e5b1a08d8a5bf5bd3",
+      "title": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUV8xQS1Xa09sWUwzZlR6YzZyQTBlRk1jRWJNNWFROHY1ZDdicFNhLXkwRWIyV3YtM2NJSXRJY05mTHhyU3JHTFRndEdmQlZEYXJlMVJzMmhmTGdXOFAzZERRdmduRjZXSmpBLWVWQjBxUWNIVDdHZ0M0VXdja3EyZ2xzWGhSVXc0d0VIczl5Y2UyMDlzTzdBbw?oc=5",
+      "source": "Yahoo Finance",
+      "category": "Mercados",
+      "published_at": "2026-11-23T22:25:16Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
+    },
+    {
       "id": "4547b6962dcf86746a2ad4f2",
       "title": "¿Y Rubén Rocha Moya? Ernestina Godoy, titular de la FGR, explica qué ha pasado en este caso - Radio Fórmula",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNR2czZzFGRG1rT2tqTkExYVRQeFgxLTloVzBkRzVYSTcteWdQZHR5UmxFeUdhVjJuSjNZR2Uyak5JRnNxa3ZlWXAzVUtOVWEweDRXOGpEOVZ6SWYzQUQ0M09Sd2IxYUl5YkozckkyZUZBVk1Sck1lQ3pWVEdmQkJXZUtiN2ZPMDg0dnByNVo4QXk0R3BiWXNvVHdZU2trTEhkYUVYeG5LcVp1YXJNeGV6RTNQTE4wQ3hSVGg1Ny1FUGVmd2c2TEhPVnhCb1hMemJSUTV2UzJXNnBEZWxZdm9TNtIB5gFBVV95cUxQRXk4QnA4bXM3ZjJkYk5Nc3h4WWxieHNBcFo3TDlLclJiTEU4ZWtLSER5cE1wZ1V6ZEgzZFpGNUpMZ245Sld6blJjcmVkT08tYWM5NnF4R1dRNXFSSlMtWEFyN1VZOWhqbzNsQU1qbklpbjFUMWhRa0Zob0pIMGpwTkNETXJkLU1IekVmLWhZdHprTjJwMWNVaGJ3cGhud09kVE1NSk1KRmxTLWR1a3pzX1BuZDhua3FXWWl2QzBHT0FJUlBPSEZHcFNCTHlVSEh6ZFdKRUxocUxYMlJlWUROaEpEd3c2UQ?oc=5",
@@ -1922,6 +2183,15 @@
       "category": "México",
       "published_at": "2026-11-23T22:22:00Z",
       "collected_at": "2026-11-24T00:56:29.706292Z"
+    },
+    {
+      "id": "b9ef8123356d915c27ec0363",
+      "title": "US stocks surge and recover half of last week’s plunge after Jensen Huang returns as Nvidia’s CEO - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQkhJZFB6UEZYRGZhWVdfb003anFFZjRzcTJxTkJKZ0Ewb09QdVhmUlU5TUhZd2dBWU5xMDgwUURPUUZtTlkxckFqb1lHNEpMQjNZUHRyZVBDclpzOHB5SlJnVzR2blNfUUpHWFJ6ZGpKb2hrWXVLYk53M2JwSUhiQw?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "category": "Mercados",
+      "published_at": "2026-11-23T22:21:25Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "ad9fda94ca048ad28cc88520",
@@ -1958,6 +2228,15 @@
       "category": "Mercados",
       "published_at": "2026-11-23T22:16:02Z",
       "collected_at": "2026-11-23T22:25:30.798947Z"
+    },
+    {
+      "id": "e19ae422bcc2d9aa4cb758e3",
+      "title": "Wall Street rebounds as Jensen Huang returns as Nvidia CEO - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeTV0QmI2TEUybTlKQU5JLXpfWEFXbDh2SVF0SkYxS216UVJpYTNRS2I4ODF3RnlLWk5Ic2ExNVlKVEl3MTdtOG9VMWg1UnVqNzNsbmZWdGg2TjQ0WllYSVpmWnlBb0RBRUNNMnd2YlBDT0J3X2EwT2t4WFBPdEwwZ1ZubjJESzdrcnNjeHRoSUZ0anY4SDladmFwb1gtU3M?oc=5",
+      "source": "Yahoo Finance",
+      "category": "Mercados",
+      "published_at": "2026-11-23T22:15:48Z",
+      "collected_at": "2026-11-24T16:59:24.963040Z"
     },
     {
       "id": "b8e055045c6f192e3864b781",
@@ -2426,285 +2705,6 @@
       "category": "Mercados",
       "published_at": "2026-11-23T21:31:48Z",
       "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "f1d97ffd28127044aa3f6f57",
-      "title": "Nvidia ends up more than 30% after Jensen Huang returns as CEO",
-      "url": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:31:36Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "0ce7388073031ce1cdcca709",
-      "title": "Federal Reserve's Williams Sees US Inflation Ending 2026 at 3.5% - Sahi",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVZrT3dUazNkWE9yTHJISGVkTkhjWjBseml1SWRMUzAtTnUtdTlOM29TQ1FfUEprUVFtTkxGT2ZhMXlZNGpteUlyRDJ2WFpKSEJyMjVjUDlrY0xoYkFfR01QN2d4SW54QTVVdGNwUTM1RjY0TmpuMXNFNnVlRHRMbTBnNWxhVVdfcnQ0WXg4elJsaFU?oc=5",
-      "source": "Sahi",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-23T21:31:04Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "485e34722a0d145bf0bfedac",
-      "title": "FGR abre 15 carpetas de investigación por corrupción en el INE que involucran a Taddei y a Hernández Casillas - La Jornada",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMlBCaGQ4aEFKb3RNN0VRWlNCcktZODN6Tk56Z0VITUd3dm16eXI5YzVwUkJLenI3Y3U1LTlNclNhNVRjdjlmUFlVZ1hocmR4UGwzamhnNlNFMmhXa3ZrTXJ4VVhSYVVHUXdlTVJVcHkzRl9XbnpuWmM3OHVYWXpERGt0ajh1SEpSQ3NLRXkza1pmVDBGdmlTS1JlajFGSlFfUXV0QlVSV25KU1p0QWZVSFlzNUJoNlB1a1Etal9GaWRfLUZkc0JSaXhJU3JSanBpNW13LXZiVVdMUjVyLTFUYW1SNFEwdw?oc=5",
-      "source": "La Jornada",
-      "category": "Política",
-      "published_at": "2026-11-23T21:31:00Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "b9b5342c2beeb74e27e9a8e3",
-      "title": "How major US stock indexes fared Monday 11/23/2026",
-      "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:30:53Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "70719a8cc9813695cdf1b181",
-      "title": "US Markets Face Key Inflation and GDP Tests Ahead of Thanksgiving - Cryptonews.net",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fS21oNUVPM25iUGQ2NHNrNGxyRnFNTEVzN0pvc0JDTHFDR08xajJ3NU1XYVlVaXp4LTlHVzZGOUplTFR1NTNhVkR3VFhoWVBBeDdBeHVac1k?oc=5",
-      "source": "Cryptonews.net",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-23T21:29:27Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "ac68324255d38667a73b04a8",
-      "title": "Brasil baja la previsión del PIB para 2027 y eleva la de inflación - El Economista",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWNqYzMzTlJnbTFSd0trS09ySV94TVlLZE5qVDhlNk1uT0IzOG9IQ09vQmRVR2dxSUxqdGI3YXFsQzBnekhwNGFSTXZ1aF9kM2IxZW1ELXdKek5HQ0JkZ1BuRDBpMU9TYzItU3pCdERiUWtlYngzc2JMSDVwaWhEZkRqcDVxTFM1UkFDd2lJTEI5b2tuSEs1cFp4S2FwUS16TzdxVWttaEtRclZ00gGyAUFVX3lxTE1DMGVzZExpdVFWWDlobzJ4UGgwcmhSTWZ4WHFkYTFGemVadkRqQnB0SFdXbHBxTE54cjM5TEdrYmxhNTRXY3A1WkZJVXdWcVljWVNkeGZDd1M0MlB5RTlnY213WHdKM2c1UU9yY2FzaEcwMl8wa1FEZlRGRERERUlxcjI2eUYzd0RqZ1doUlNuM2lhS3FjZGxsa0tzQnVtREZKbXAtaXVZVGVCU2VUUExjYXc?oc=5",
-      "source": "El Economista",
-      "category": "México",
-      "published_at": "2026-11-23T21:29:24Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "8a829cfa0f1724c498b54bc2",
-      "title": "Brasil baja la previsión del PIB para 2027 y eleva la de inflación - El Economista",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQzBlc2RMaXVRVlg5aG8yeFBoMHJoUk1meFhxZGExRnplWnZEakJwdEhXV2xwcUxOeHIzOUxHa2JsYTU0V2NwNVpGSVV3VnFZY1lTZHhmQ3dTNDJQeUU5Z2Ntd1h3SjNnNVFPcmNhc2hHMDJfMGtRRGZURkREREVJcXIyNnlGM3dEamdXaFJTbjNpYUtxY2RsbGtLc0J1bURGSm1wLWl1WVRlQlNlVFBMY2F30gGyAUFVX3lxTE1DMGVzZExpdVFWWDlobzJ4UGgwcmhSTWZ4WHFkYTFGemVadkRqQnB0SFdXbHBxTE54cjM5TEdrYmxhNTRXY3A1WkZJVXdWcVljWVNkeGZDd1M0MlB5RTlnY213WHdKM2c1UU9yY2FzaEcwMl8wa1FEZlRGRERERUlxcjI2eUYzd0RqZ1doUlNuM2lhS3FjZGxsa0tzQnVtREZKbXAtaXVZVGVCU2VUUExjYXc?oc=5",
-      "source": "El Economista",
-      "category": "México",
-      "published_at": "2026-11-23T21:29:24Z",
-      "collected_at": "2026-11-24T00:56:29.706292Z"
-    },
-    {
-      "id": "04d92ef6a6fdf20d02135b98",
-      "title": "HPE just posted its strongest growth ever — but its stock is wavering",
-      "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:28:00Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "0d8e21f8264baf051d3b5f9b",
-      "title": "Grayscale picks 11 winners of AI's power crunch",
-      "url": "https://www.thestreet.com/crypto/markets/grayscale-picks-11-winners-of-ais-power-crunch?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:28:00Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "67b18d87ef9a4f3e43a4171f",
-      "title": "FGR tiene 15 carpetas de investigación y 40 domicilios ubicados por caso INE - Milenio",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObzh2SW0zOVBPdlV3cVNKTVJMZzJNZ2VaVHljeGtNT08zRDBoeTFqaWJkSFJPc1YwbklKbTRicVpVaUZDclA3anR5RkNRcEMxejJtREEtczZRZWRRODl2VUJPWVliOWN4TUM5cFRGN1VianNkaWZjbnZWYjBDYkZma01PeE12Z2RMVDk3WUw4dm5Rd9IBkgFBVV95cUxORzR3a1ZBbnA2anJoRl9Na1dIY3Z5Tm5zSWctU3AwSDJyNFlNNXJRSi1GM1QtTUFCS0pLR1NJNlM3RXdEcEN4X2lqN1RVZ0lMZWxGM1NpN25ZUjM2WUNPcnp6dVlZX3pWUHFqV3luWWVvM2xIY1BOek1aV0s5b2FlNWZqNEJEdm1kaWh3RnZpUk5xZw?oc=5",
-      "source": "Milenio",
-      "category": "Política",
-      "published_at": "2026-11-23T21:28:00Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "f7996cbec0479a793c8185af",
-      "title": "Fed’s Williams says officials must act ‘over time’ on inflation - Asset Securitization Report",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcU9KckRLaEg5cXdKSjIxWHVrbW84Rjg5bERZbng0TFNxVDBrWkVUcGdiWk80UnpZaUpIZmZ4bDBaaG1DNmtYRkYyT0FlbXNPaGFNRmUtemh0S1p3THhjYjg0RDdrTHRJdG5vbmRqOFpaVVEyS1NRc0xUTU5XQ2daUFd1RVZDZ0tLeGczMEFFVWtNVjdRQUNYSVJ0eEZmTll4S1hnNHZ1TXgzYk9rRERzY0lRMHM?oc=5",
-      "source": "Asset Securitization Report",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-23T21:27:38Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "72ceff678a449f5b4a29a04d",
-      "title": "Trump has a personal stake in Nvidia's future",
-      "url": "https://www.usatoday.com/story/money/markets/2026/11/23/trump-nvidia-stock-huang-conflict-of-interest/92929816007/?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:26:54Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "632074b039db16ca53236ab9",
-      "title": "Fiscal Ernestina Godoy explica por qué no han detenido a Guadalupe Taddei; detalla investigaciones - Radio Fórmula",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRUVJLThlT2RkY1AwNkJ4NDFLSE9RTHdySzhsTXE5REUxX1A0OXdDWm5BNUUxaW9oTnNKSk92UzYwWlZacmFMbmVBN0VEdFEzWk1LOG5DZUYwUXVpRERoSjhIa3ZlRDdYNW1QUGRLUW1lQ2N2MTNkQ2VTWVVZTU1pdGdTU1B4NDVqUHgwbDNsMkRkZlM1UEd5TmpIX2NRd0doZHdxWEhDQjRDRFJnN3ZhNm5UbmNUZVJzNzBMc2s2aGRxZHM2THNKa0ZJX0ZFdXNxRm1wSU1BYWxweDJaMW91ZW1BTWJ6RXJ1eHlndV9B0gHzAUFVX3lxTFB0Y19nalR3azZtaEJUSURsTFdKbklTdG5QbkJJUzJ1VE5VYnV0c2s1TmFUVGRTekNXcGNCaVhCNW9aVHBXSlZsQ3JOMHdBOFhKVzFxWWllY3EtN0JZR0NuT2w3dmZ3SDNKeW0zVXlrUlh0d3g5VDB6WjZzenAzd0NpV3FOenktRjhidTAxdGItX3BrX3hIZHpoa3ZIV2tzdkV6eGJJZmhRbmY5U1J6TllEQ1JMMFdMalBDMThBaHZUckp0LXVhN2tnREdIZFhZeTJMOGNoMjhtMlhPYlBwLTczbmJDcG1SeVZHMDJSVDN4TzZpTQ?oc=5",
-      "source": "Radio Fórmula",
-      "category": "Política",
-      "published_at": "2026-11-23T21:26:42Z",
-      "collected_at": "2026-11-23T22:25:30.798947Z"
-    },
-    {
-      "id": "27bc40f7bd11f123cd374c3f",
-      "title": "PODCAST: Huang reinstated, Ukraine hits Russian ship, Black Friday AI (Updated) - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajRPZ3A2N2ZWTGl1dVlMQTk4OGpNTHh6dG1YbjRpMktzbUhBYUdFaEpJbnhOSnVSZlJUYUpQNDcyRHJQY0NJQW0tSkdtLWtwTWR6SU15TmNyWlp5Y3FNUENDYTRpa3VYNFhvSG03ZEtYU2lQZkRTazhpdXRrS3VZNzBTZnJoWlJKZHJVQkVKc3hnRDZHbmtIY0lwRnlkc0It?oc=5",
-      "source": "Reuters",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:26:14Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "460c82a6ece025d2e785ddc2",
-      "title": "Elon Musk on his support for Jensen Huang: 'Fair-weather friends are worthless'",
-      "url": "https://finance.yahoo.com/markets/article/musk-on-support-for-jensen-huangs-return-to-nvidia-fair-weather-friends-are-worthless-212613771.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:26:13Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "e7de6d49ee3879755ee56b03",
-      "title": "If You Invest $1,000 in JEPQ Right Now and Never Add Another Dollar, Here’s What It Could Deliver in 10 Years",
-      "url": "https://www.fool.com/investing/2026/11/23/if-you-invest-usd1-000-in-jepq-right-now-and-never-add-another-dollar-here-s-what-it-could-deliver-in-10-years/?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:26:02Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "421c785be91f43ea39d4ec7b",
-      "title": "Jensen Huang's reinstatement changes how politics, business interact forever",
-      "url": "https://finance.yahoo.com/video/jensen-huangs-reinstatement-changes-how-politics-business-interact-forever-212537409.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:25:37Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "c207f5c5c73263a87695c327",
-      "title": "Especialistas de EU supervisan laboratorios forenses de FGE Morelos - Zona Franca",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORDV3VEw3ODA4c0hIV0RUWmdQZ1BlU3lMb0c3SUZEMURWX1QwOWxIcGRNRWtpaGxGY0tpTUlBekRnSXd0eHNWcmtvVFBCUFcwQUxPYVdfak5FYmtYSzRhTVZkTG1BZktEVzhFYlQ0aUFuNzdaaWFGLW5OY19mclFlRnFOeTVLYjlVT2huX2VlUVhOdDRpQW1QLWkwOUx1T0hqaW13YzVpak00M2VM?oc=5",
-      "source": "Zona Franca",
-      "category": "Política",
-      "published_at": "2026-11-23T21:25:07Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "14e408d620235d1f8d303f00",
-      "title": "Leading CHROs and Business Executives to Convene at i4cp's 2027 Next Practices Now Conference",
-      "url": "https://finance.yahoo.com/small-business/articles/leading-chros-business-executives-convene-212500658.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:25:00Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "7fd89b56010e8a3d97951a62",
-      "title": "ASML Stock’s Sell-Off Looks Excessive Against Its Growth Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/asml-stock-sell-off-looks-212500722.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:25:00Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "074bafd161fade031bb4baee",
-      "title": "Divided Wall Street: Wells Fargo Upgrades US Large Caps To ‘Most Favorable,’ But JPMorgan Is Taking A Measured Approach",
-      "url": "https://stocktwits.com/news-articles/markets/equity/divided-wall-street-wells-fargo-upgrades-us-large-caps-to-most-favorable-but-jp-morgan-is-taking-a-measured-approach/cNbpWcHR9jF?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:24:44Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "c9f171d73bdaeb4d08d38de0",
-      "title": "Federal Reserve signals higher rates over time as inflation stays above target - Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUlhoVnNzOV96M0pNN01qOGZiMm90Znd5YkZsYzdSZXF1Y1VlV2lMODhzOHYwaEQtOFFyTDhiTUhMUlc2b1prczJJLU9CdnhhME9UV25fTFZ1NWxWOGg1eDZ5Q3VWeTVZcE12MlRrTzdrVmZIdlNOUGRfcHBQaVptbVZmdXpVc3c2VjctRzM5SUhHeHRaTUU3dg?oc=5",
-      "source": "Traders Union",
-      "category": "Estados Unidos",
-      "published_at": "2026-11-23T21:24:30Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "b7f9071275e1f70e05fdb3d4",
-      "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
-      "url": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:24:00Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "3fd569285f7e0a4c8bbf4496",
-      "title": "AMD’s Blockbuster Q3 Report Is Getting Lost in the Pullback",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-blockbuster-q3-report-getting-212200835.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:22:00Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "08f726001160a695b757cf7a",
-      "title": "Why TSMC Stock Soared Today",
-      "url": "https://www.fool.com/investing/2026/11/23/why-tsmc-stock-soared-today/?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:20:49Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "e66c02492868a00246ae9a6d",
-      "title": "5 Cheapest Stocks Billionaire Druckenmiller is Betting on - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWl9GeUJVeEhzaFRTNVJfTkxEV2JhYktzNDFFSnlnN0E4WVFHT3BfTF9kallPbGJlXzZSUHlSWDd5SkdqUXRTSkYtSklGVmVUeG01aFI5YjctYnduWXJ3ejlCMEVMNk5ic0IyR2Vna2YxRmdBWWsxY3JJX2diTWJ2cm1td01sc05kN0sxN0w1QWxSOGd0ck9QNHh6VlJ0LWpmQjJ1bmd6c2xZYWVS?oc=5",
-      "source": "Yahoo Finance",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:20:47Z",
-      "collected_at": "2026-11-24T16:57:37.976212Z"
-    },
-    {
-      "id": "cca5ff62d12dfc71e98804b9",
-      "title": "US Equity Markets Rise After Nvidia Reinstates Jensen Huang as CEO",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-rise-nvidia-212021213.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:20:21Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "c8dc97249a06e5b911b4708c",
-      "title": "AI Energy Stocks, From Fuel Cells To Uranium, Rebound As Nvidia Soars",
-      "url": "https://finance.yahoo.com/m/e2fe0876-9cdd-3a2d-96b4-7860f584a20d/ai-energy-stocks%2C-from-fuel.html?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:19:56Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "fdf476b236238bde0bd1d517",
-      "title": "Peso mexicano registra moderada caída frente al dólar ante un mejor sentimiento en el mercado - El Economista",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS2NtOVcwazVxOHFaTW0zN2NVODkxNFE4SENDeDk1OVlYWmYwQ25reTJfc2dHdllXbGIxTXFpbjZyenZTV3YtT1o4TUxHWHJKRG9laTY2XzhXbWY1RHFEc0xQbEJ2cjU0bGhMQTU0YkhMSzZWNGExemFWMEo3UUJYY3VxOWo2MzJLeVBRejFoTUlxcnJfeUxwUFEyNEt0aWVJRHdRa2x4OWFlUkE1NlHSAbMBQVVfeXFMUEd2bGJNT1BFUDNKaEFEQjl1empHN2EybDZ6aTlmZy1fOGVlVHpiUjhDVHhOaXQzWHpFXzliZWdRVDA2aFJ1UGJIWDBKdFlxMVdsYlNxcldQazBPWFVBcXhadWNVOUhlMjZIQWxmUUx1emlyZXhmZHJVSjBhTzJlUElXZW1idW8wSVUzNlNLY0FJWXYwbHVtTVd5OUh4c2ZuYUlKVTduRldKOTgwLVNWZHlLeFE?oc=5",
-      "source": "El Economista",
-      "category": "México",
-      "published_at": "2026-11-23T21:19:29Z",
-      "collected_at": "2026-11-23T21:56:17.583808Z"
-    },
-    {
-      "id": "24a3caec95d21dab890553a0",
-      "title": "Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-      "url": "https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/?.tsrc=rss",
-      "source": "Yahoo Finance / Acciones",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:19:18Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
-    },
-    {
-      "id": "9a9ebcf60a564991a797446c",
-      "title": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
-      "url": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "category": "Mercados",
-      "published_at": "2026-11-23T21:19:00Z",
-      "collected_at": "2026-11-23T21:40:36.119003Z"
     }
   ]
 }
